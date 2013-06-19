@@ -11,8 +11,41 @@ java version "1.7.0_21"
 Java(TM) SE Runtime Environment (build 1.7.0_21-b11)
 Java HotSpot(TM) 64-Bit Server VM (build 23.21-b01, mixed mode)
 
+-------CURRENT RUN CONSOLE OUTPUT--------------------
 
--------LAST RUN ATTEMPT CONSOLE OUTPUT-------------------------
+ sauce]$ rvm list
+
+ rvm rubies
+
+    jruby-1.6.2 [ amd64 ]
+    jruby-1.6.7 [ amd64 ]
+ =* ruby-1.9.3-head [ x86_64 ]
+
+ # => - current
+ # =* - current && default
+ #  * - default
+
+ [sauce]$ java -version
+ java version "1.7.0_03"
+ Java(TM) SE Runtime Environment (build 1.7.0_03-b04)
+ Java HotSpot(TM) 64-Bit Server VM (build 22.1-b02, mixed mode)
+ [sauce]$ rails -v
+ Rails 3.0.12
+ [sauce]$ ruby -v
+ ruby 1.9.3p165 (2012-03-18 revision 35078) [x86_64-linux]
+
+
+ [sauce]$ rake sauce:spec
+ 20 processes for 4 specs, ~ 0 specs per process
+
+
+
+ Took 5.096910337 seconds
+ Tests Failed
+
+
+
+-------PRIOR RUNS ATTEMPT CONSOLE OUTPUT-------------------------
 
 dev@sandbox:~/railsapps/sauce$ rake sauce:spec
 20 processes for 4 specs, ~ 0 specs per process
