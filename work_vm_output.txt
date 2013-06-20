@@ -1,219 +1,329 @@
-sauce]$ bundle exec rspec spec/features
-You did not specify how you would like Rails to report deprecation notices for your oit1170c environment, please set config.active_support.deprecation to :log, :notify or :stderr at config/environments/oit1170c.rb
-/home/babsetz/.rvm/gems/ruby-1.9.3-head@sauce/gems/activerecord-3.0.12/lib/active_record/connection_adapters/abstract/connection_specification.rb:62:in `establish_connection': oit1170c database is not configured (ActiveRecord::AdapterNotSpecified)
-	from /home/babsetz/.rvm/gems/ruby-1.9.3-head@sauce/gems/activerecord-3.0.12/lib/active_record/connection_adapters/abstract/connection_specification.rb:55:in `establish_connection'
-	from /home/babsetz/.rvm/gems/ruby-1.9.3-head@sauce/gems/activerecord-3.0.12/lib/active_record/railtie.rb:59:in `block (2 levels) in <class:Railtie>'
-	from /home/babsetz/.rvm/gems/ruby-1.9.3-head@sauce/gems/activesupport-3.0.12/lib/active_support/lazy_load_hooks.rb:36:in `instance_eval'
-	from /home/babsetz/.rvm/gems/ruby-1.9.3-head@sauce/gems/activesupport-3.0.12/lib/active_support/lazy_load_hooks.rb:36:in `execute_hook'
-	from /home/babsetz/.rvm/gems/ruby-1.9.3-head@sauce/gems/activesupport-3.0.12/lib/active_support/lazy_load_hooks.rb:43:in `block in run_load_hooks'
-	from /home/babsetz/.rvm/gems/ruby-1.9.3-head@sauce/gems/activesupport-3.0.12/lib/active_support/lazy_load_hooks.rb:42:in `each'
-	from /home/babsetz/.rvm/gems/ruby-1.9.3-head@sauce/gems/activesupport-3.0.12/lib/active_support/lazy_load_hooks.rb:42:in `run_load_hooks'
-	from /home/babsetz/.rvm/gems/ruby-1.9.3-head@sauce/gems/activerecord-3.0.12/lib/active_record/base.rb:1910:in `<top (required)>'
-	from /home/babsetz/.rvm/gems/ruby-1.9.3-head@sauce/gems/rspec-rails-2.13.2/lib/rspec/rails/extensions/active_record/base.rb:19:in `<module:Extensions>'
-	from /home/babsetz/.rvm/gems/ruby-1.9.3-head@sauce/gems/rspec-rails-2.13.2/lib/rspec/rails/extensions/active_record/base.rb:4:in `<module:Rails>'
-	from /home/babsetz/.rvm/gems/ruby-1.9.3-head@sauce/gems/rspec-rails-2.13.2/lib/rspec/rails/extensions/active_record/base.rb:2:in `<module:RSpec>'
-	from /home/babsetz/.rvm/gems/ruby-1.9.3-head@sauce/gems/rspec-rails-2.13.2/lib/rspec/rails/extensions/active_record/base.rb:1:in `<top (required)>'
-	from /home/babsetz/.rvm/gems/ruby-1.9.3-head@sauce/gems/activesupport-3.0.12/lib/active_support/dependencies.rb:242:in `require'
-	from /home/babsetz/.rvm/gems/ruby-1.9.3-head@sauce/gems/activesupport-3.0.12/lib/active_support/dependencies.rb:242:in `block in require'
-	from /home/babsetz/.rvm/gems/ruby-1.9.3-head@sauce/gems/activesupport-3.0.12/lib/active_support/dependencies.rb:225:in `block in load_dependency'
-	from /home/babsetz/.rvm/gems/ruby-1.9.3-head@sauce/gems/activesupport-3.0.12/lib/active_support/dependencies.rb:597:in `new_constants_in'
-	from /home/babsetz/.rvm/gems/ruby-1.9.3-head@sauce/gems/activesupport-3.0.12/lib/active_support/dependencies.rb:225:in `load_dependency'
-	from /home/babsetz/.rvm/gems/ruby-1.9.3-head@sauce/gems/activesupport-3.0.12/lib/active_support/dependencies.rb:242:in `require'
-	from /home/babsetz/.rvm/gems/ruby-1.9.3-head@sauce/gems/rspec-rails-2.13.2/lib/rspec/rails/extensions.rb:1:in `<top (required)>'
-	from /home/babsetz/.rvm/gems/ruby-1.9.3-head@sauce/gems/activesupport-3.0.12/lib/active_support/dependencies.rb:242:in `require'
-	from /home/babsetz/.rvm/gems/ruby-1.9.3-head@sauce/gems/activesupport-3.0.12/lib/active_support/dependencies.rb:242:in `block in require'
-	from /home/babsetz/.rvm/gems/ruby-1.9.3-head@sauce/gems/activesupport-3.0.12/lib/active_support/dependencies.rb:225:in `block in load_dependency'
-	from /home/babsetz/.rvm/gems/ruby-1.9.3-head@sauce/gems/activesupport-3.0.12/lib/active_support/dependencies.rb:597:in `new_constants_in'
-	from /home/babsetz/.rvm/gems/ruby-1.9.3-head@sauce/gems/activesupport-3.0.12/lib/active_support/dependencies.rb:225:in `load_dependency'
-	from /home/babsetz/.rvm/gems/ruby-1.9.3-head@sauce/gems/activesupport-3.0.12/lib/active_support/dependencies.rb:242:in `require'
-	from /home/babsetz/.rvm/gems/ruby-1.9.3-head@sauce/gems/rspec-rails-2.13.2/lib/rspec/rails.rb:9:in `<top (required)>'
-	from /home/babsetz/.rvm/gems/ruby-1.9.3-head@sauce/gems/activesupport-3.0.12/lib/active_support/dependencies.rb:242:in `require'
-	from /home/babsetz/.rvm/gems/ruby-1.9.3-head@sauce/gems/activesupport-3.0.12/lib/active_support/dependencies.rb:242:in `block in require'
-	from /home/babsetz/.rvm/gems/ruby-1.9.3-head@sauce/gems/activesupport-3.0.12/lib/active_support/dependencies.rb:225:in `block in load_dependency'
-	from /home/babsetz/.rvm/gems/ruby-1.9.3-head@sauce/gems/activesupport-3.0.12/lib/active_support/dependencies.rb:597:in `new_constants_in'
-	from /home/babsetz/.rvm/gems/ruby-1.9.3-head@sauce/gems/activesupport-3.0.12/lib/active_support/dependencies.rb:225:in `load_dependency'
-	from /home/babsetz/.rvm/gems/ruby-1.9.3-head@sauce/gems/activesupport-3.0.12/lib/active_support/dependencies.rb:242:in `require'
-	from /home/babsetz/railsapps/sauce/spec/spec_helper.rb:4:in `<top (required)>'
-	from /home/babsetz/railsapps/sauce/spec/features/miso_spec.rb:1:in `require'
-	from /home/babsetz/railsapps/sauce/spec/features/miso_spec.rb:1:in `<top (required)>'
-	from /home/babsetz/.rvm/gems/ruby-1.9.3-head@sauce/gems/rspec-core-2.13.1/lib/rspec/core/configuration.rb:819:in `load'
-	from /home/babsetz/.rvm/gems/ruby-1.9.3-head@sauce/gems/rspec-core-2.13.1/lib/rspec/core/configuration.rb:819:in `block in load_spec_files'
-	from /home/babsetz/.rvm/gems/ruby-1.9.3-head@sauce/gems/rspec-core-2.13.1/lib/rspec/core/configuration.rb:819:in `each'
-	from /home/babsetz/.rvm/gems/ruby-1.9.3-head@sauce/gems/rspec-core-2.13.1/lib/rspec/core/configuration.rb:819:in `load_spec_files'
-	from /home/babsetz/.rvm/gems/ruby-1.9.3-head@sauce/gems/rspec-core-2.13.1/lib/rspec/core/command_line.rb:22:in `run'
-	from /home/babsetz/.rvm/gems/ruby-1.9.3-head@sauce/gems/rspec-core-2.13.1/lib/rspec/core/runner.rb:80:in `run'
-	from /home/babsetz/.rvm/gems/ruby-1.9.3-head@sauce/gems/rspec-core-2.13.1/lib/rspec/core/runner.rb:17:in `block in autorun'
-[babsetz@oit1170c sauce]$ bundle exec rspec spec/features
-Starting Rails server on port 3001...
-=> Booting WEBrick
-=> Rails 3.0.12 application starting in oit1170c on http://0.0.0.0:3001
-=> Call with -d to detach
-=> Ctrl-C to shutdown server
-[2013-06-20 07:48:12] INFO  WEBrick 1.3.1
-[2013-06-20 07:48:12] INFO  ruby 1.9.3 (2012-03-18) [x86_64-linux]
-[2013-06-20 07:48:12] INFO  WEBrick::HTTPServer#start: pid=20705 port=3001
-Rails server running!
-[Connecting to Sauce Labs...]
-Sauce Connect 3.0-r25, build 38
+[sauce]$ bundle exec rake sauce:spec
+20 processes for 4 specs, ~ 0 specs per process
+[Connecting to Sauce Labs...]Sauce Connect 3.0-r25, build 38
+
 * Debug messages will be sent to sauce_connect.log
-2013-06-20 07:48:23.798:INFO::jetty-7.x.y-SNAPSHOT
-2013-06-20 07:48:23.853:INFO::Started SelectChannelConnector@0.0.0.0:51261
+
+An error occurred in an after hook
+  Selenium::WebDriver::Error::WebDriverError: unexpected response, code=404, content-type="text/plain"
+ERROR Job adc22a50b3ca4e47b44eb4d964edc88c is not in progress. It may have recently finished, or experienced an error. You can learn more at https://saucelabs.com/jobs/adc22a50b3ca4e47b44eb4d964edc88c
+  occurred at /home/babsetz/.rvm/gems/ruby-1.9.3-head@nusauce/gems/selenium-webdriver-2.33.0/lib/selenium/webdriver/remote/http/common.rb:66:in `create_response'
+
+
+An error occurred in an after hook
+  Selenium::WebDriver::Error::WebDriverError: unexpected response, code=404, content-type="text/plain"
+ERROR Job f400e03c7b3c4a8e93276a8d01167343 is not in progress. It may have recently finished, or experienced an error. You can learn more at https://saucelabs.com/jobs/f400e03c7b3c4a8e93276a8d01167343
+  occurred at /home/babsetz/.rvm/gems/ruby-1.9.3-head@nusauce/gems/selenium-webdriver-2.33.0/lib/selenium/webdriver/remote/http/common.rb:66:in `create_response'
+
+2013-06-20 09:07:17.191:INFO::jetty-7.x.y-SNAPSHOT
+2013-06-20 09:07:17.227:INFO::Started SelectChannelConnector@0.0.0.0:39401
 .---------------------------------------------------.
 |  Have questions or need help with Sauce Connect?  |
 |  Contact us: http://support.saucelabs.com/forums  |
 |  Terms of Service: http://saucelabs.com/tos       |
 -----------------------------------------------------
-2013-06-20 07:48:23,894 - / Starting \
-2013-06-20 07:48:23,900 - Please wait for "You may start your tests" to start your tests.
-2013-06-20 07:48:23,913 - Forwarding: ['sauce-connect.proxy']:['80'] -> 127.0.0.1:['51261']
-2013-06-20 07:48:23,944 - Succesfully connected to local server 127.0.0.1:51261 in 14ms
-2013-06-20 07:48:24,388 - {"squid_config":null,"use_caching_proxy":true,"metadata":{"PythonVersion":"2.5.1","OwnerHost":"127.0.0.1","Release":"3.0-r25","OwnerPorts":["51261"],"Ports":["80"],"Platform":"Java-1.7.0_03-Java_HotSpot-TM-_64-Bit_Server_VM,_22.1-b02,_Oracle_Corporation-on-Linux-2.6.32-358.2.1.el6.x86_64-amd64","Build":"38","ScriptRelease":38,"ScriptName":"sauce_connect"},"use_kgp":true,"tunnel_identifier":"","shared_tunnel":false,"fast_fail_regexps":null,"ssh_port":443,"direct_domains":null,"domain_names":["sauce-connect.proxy"]}
-2013-06-20 07:48:24,638 - Tunnel remote VM is provisioned (e97c40156ea04f638387fd628a050f59)
-2013-06-20 07:48:24,862 - Tunnel remote VM is new ..
-2013-06-20 07:48:28,088 - Tunnel remote VM is deploying ..
-2013-06-20 07:48:31,369 - Tunnel remote VM is booting ..
-2013-06-20 07:48:44,322 - Tunnel remote VM is running at maki11139.miso.saucelabs.com
-2013-06-20 07:48:44,371 - Succesfully connected to local server 127.0.0.1:51261 in 1ms
-2013-06-20 07:48:44,375 - Starting connection to tunnel host...
-2013-06-20 07:48:44,378 - Connecting to tunnel host maki11139.miso.saucelabs.com as barquin
-2013-06-20 07:48:44,752 - Forwarding Selenium with ephemeral port 35679
-2013-06-20 07:48:44.755:INFO::jetty-7.x.y-SNAPSHOT
-2013-06-20 07:48:44.769:INFO::Started SelectChannelConnector@0.0.0.0:4445
-2013-06-20 07:48:44,770 - Selenium HTTP proxy listening on port 4445
-2013-06-20 07:48:45,138 - Successful handshake with Sauce Connect server
-2013-06-20 07:48:45,216 - Tunnel host version: 0.1.0, remote endpoint ID: 8b578e8fccce423183ba06dcb9c682a4
-2013-06-20 07:48:45,220 - Connected! You may start your tests.
-2013-06-20 07:48:51,664 - GET http://en.wikipedia.org/ -> 301 (166ms)
-2013-06-20 07:48:51,766 - GET http://en.wikipedia.org/wiki/Main_Page -> 200 (16ms)
-2013-06-20 07:48:52,028 - GET http://bits.wikimedia.org/geoiplookup -> 200 (15ms)
-2013-06-20 07:48:52,032 - GET http://bits.wikimedia.org/en.wikipedia.org/load.php?debug=false&lang=en&modules=site&only=styles&skin=vector&* -> 200 (95ms)
-2013-06-20 07:48:52,040 - GET http://bits.wikimedia.org/en.wikipedia.org/load.php?debug=false&lang=en&modules=startup&only=scripts&skin=vector&* -> 200 (98ms)
-2013-06-20 07:48:52,045 - GET http://bits.wikimedia.org/en.wikipedia.org/load.php?debug=false&lang=en&modules=ext.gadget.DRN-wizard%2CReferenceTooltips%2Ccharinsert%2Cteahouse%7Cext.rtlcite%2Cwikihiero%7Cmediawiki.legacy.commonPrint%2Cshared%7Cmw.PopUpMediaTransform%7Cskins.vector&only=styles&skin=vector&* -> 200 (111ms)
-2013-06-20 07:48:52,124 - GET http://en.wikipedia.org/w/index.php?title=MediaWiki:Gadget-ReferenceTooltips.js&action=raw&ctype=text/javascript&508635914 -> 200 (10ms)
-2013-06-20 07:48:52,128 - GET http://bits.wikimedia.org/en.wikipedia.org/load.php?debug=false&lang=en&modules=site&only=scripts&skin=vector&* -> 200 (10ms)
-2013-06-20 07:48:52,384 - GET http://bits.wikimedia.org/en.wikipedia.org/load.php?debug=false&lang=en&modules=jquery%2Cmediawiki%2CSpinner%7Cjquery.triggerQueueCallback%2CloadingSpinner%2CmwEmbedUtil%7Cmw.MwEmbedSupport&only=scripts&skin=vector&version=20130606T161301Z -> 200 (26ms)
-2013-06-20 07:48:52,671 - GET http://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/IanHaug2007.jpg/100px-IanHaug2007.jpg -> 200 (104ms)
-2013-06-20 07:48:52,671 - GET http://upload.wikimedia.org/wikipedia/commons/thumb/0/01/Coburg-St.Augustin.jpg/66px-Coburg-St.Augustin.jpg -> 200 (102ms)
-2013-06-20 07:48:52,674 - GET http://upload.wikimedia.org/wikipedia/en/thumb/e/e0/Statni_pohreb_Vaclava_Havla_23.12.2011_318_cropped.jpg/75px-Statni_pohreb_Vaclava_Havla_23.12.2011_318_cropped.jpg -> 200 (101ms)
-2013-06-20 07:48:52,677 - GET http://upload.wikimedia.org/wikipedia/commons/thumb/3/30/Bugsy_Siegel.jpg/83px-Bugsy_Siegel.jpg -> 200 (110ms)
-2013-06-20 07:48:52,681 - GET http://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Aeroflot_Airbus_A330_Kustov_edit.jpg/400px-Aeroflot_Airbus_A330_Kustov_edit.jpg -> 200 (111ms)
-2013-06-20 07:48:52,670 - GET http://upload.wikimedia.org/wikipedia/en/9/9d/Commons-logo-31px.png -> 200 (97ms)
-2013-06-20 07:48:52,694 - GET http://bits.wikimedia.org/en.wikipedia.org/load.php?debug=false&lang=en&modules=ext.vector.footerCleanup&skin=vector&version=20130620T021509Z&* -> 200 (12ms)
-2013-06-20 07:48:52,707 - GET http://bits.wikimedia.org/en.wikipedia.org/load.php?debug=false&lang=en&modules=ext.centralNotice.bannerController%7Cext.wikimediaShopLink.core%7Cjquery.client%2Ccookie%2CmwExtension%7Cmediawiki.cldr%2CjqueryMsg%2Clanguage%2Cnotify%2Cutil%7Cmediawiki.language.data%2Cinit%7Cmediawiki.legacy.ajax%2Cwikibits%7Cmediawiki.libs.pluralruleparser%7Cmediawiki.page.startup%7Cwikibase.client.init&skin=vector&version=20130620T114414Z&* -> 200 (25ms)
-2013-06-20 07:48:52,766 - GET http://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/Mediawiki-logo.png/35px-Mediawiki-logo.png -> 200 (11ms)
-2013-06-20 07:48:52,773 - GET http://upload.wikimedia.org/wikipedia/en/b/bc/Meta-logo-35px.png -> 200 (8ms)
-2013-06-20 07:48:52,845 - GET http://upload.wikimedia.org/wikipedia/en/7/7f/Wikibooks-logo-35px.png -> 200 (7ms)
-2013-06-20 07:48:52,848 - GET http://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/Wikidata-logo.svg/47px-Wikidata-logo.svg.png -> 200 (8ms)
-2013-06-20 07:48:52,861 - GET http://upload.wikimedia.org/wikipedia/en/6/60/Wikinews-logo-51px.png -> 200 (6ms)
-2013-06-20 07:48:52,865 - GET http://upload.wikimedia.org/wikipedia/en/4/46/Wikiquote-logo-51px.png -> 200 (8ms)
-2013-06-20 07:48:52,865 - GET http://upload.wikimedia.org/wikipedia/en/b/b6/Wikisource-logo-35px.png -> 200 (8ms)
-2013-06-20 07:48:52,931 - GET http://upload.wikimedia.org/wikipedia/en/b/bf/Wikispecies-logo-35px.png -> 200 (7ms)
-2013-06-20 07:48:52,933 - GET http://bits.wikimedia.org/static-1.22wmf6/skins/vector/images/search-ltr.png?303-4 -> 200 (6ms)
-2013-06-20 07:48:52,951 - GET http://upload.wikimedia.org/wikipedia/en/e/e3/Wikiversity-logo-41px.png -> 200 (6ms)
-2013-06-20 07:48:52,951 - GET http://bits.wikimedia.org/images/wikimedia-button.png -> 200 (7ms)
-2013-06-20 07:48:52,964 - GET http://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Wikivoyage-logo.svg/35px-Wikivoyage-logo.svg.png -> 200 (7ms)
-2013-06-20 07:48:52,966 - GET http://bits.wikimedia.org/static-1.22wmf6/skins/common/images/poweredby_mediawiki_88x31.png -> 200 (8ms)
-2013-06-20 07:48:52,966 - GET http://upload.wikimedia.org/wikipedia/en/f/f2/Wiktionary-logo-51px.png -> 200 (8ms)
-2013-06-20 07:48:53,015 - GET http://upload.wikimedia.org/wikipedia/en/b/bc/Wiki.png -> 200 (15ms)
-2013-06-20 07:48:53,233 - GET http://bits.wikimedia.org/en.wikipedia.org/load.php?debug=false&lang=en&modules=ext.vector.collapsibleNav%2CcollapsibleTabs%7Cjquery.collapsibleTabs&skin=vector&version=20130620T021509Z&* -> 200 (11ms)
-2013-06-20 07:48:53,243 - GET http://bits.wikimedia.org/en.wikipedia.org/load.php?debug=false&lang=en&modules=ext.articleFeedbackv5.startup%7Cext.eventLogging%2CmarkAsHelpful%2CnavigationTiming%7Cext.gadget.DRN-wizard%2CReferenceTooltips%2Ccharinsert%2Cteahouse%7Cext.gettingstarted.logging%2CopenTask%7Cjquery.articleFeedbackv5.utils%7Cjquery.autoEllipsis%2CcheckboxShiftClick%2CdelayedBind%2Chidpi%2ChighlightText%2Cjson%2CmakeCollapsible%2Cmw-jump%2Cplaceholder%2Csuggestions%2CtabIndex%7Cmediawiki.Title%2Capi%2Chidpi%2CsearchSuggest%2Cuser%7Cmediawiki.action.view.postEdit%7Cmediawiki.page.ready%7Cmobile.desktop%7Cmw.MwEmbedSupport.style%7Cmw.PopUpMediaTransform%7Cschema.Edit%2CGettingStartedNavbar%2CNavigationTiming%7Cskins.vector.js&skin=vector&version=20130620T021509Z&* -> 200 (20ms)
-2013-06-20 07:48:53,298 - GET http://meta.wikimedia.org/wiki/Special:BannerRandom?uselang=en&sitename=Wikipedia&project=wikipedia&anonymous=true&bucket=0&country=US&device=desktop&slot=18 -> 200 (98ms)
-2013-06-20 07:48:53,301 - GET http://bits.wikimedia.org/en.wikipedia.org/load.php?debug=false&lang=en&modules=ext.visualEditor.splitTest&skin=vector&version=20130619T014016Z&* -> 200 (6ms)
-2013-06-20 07:48:53,318 - GET http://bits.wikimedia.org/en.wikipedia.org/load.php?debug=false&lang=en&modules=jquery.ui.button%2Ccore%2Cdialog%2Cdraggable%2Cmouse%2Cposition%2Cresizable%2Cwidget&skin=vector&version=20130606T161047Z&* -> 200 (23ms)
-2013-06-20 07:48:53,490 - GET http://en.wikipedia.org/w/opensearch_desc.php -> 200 (7ms)
-2013-06-20 07:48:53,604 - GET http://bits.wikimedia.org/favicon/wikipedia.ico -> 200 (6ms)
-2013-06-20 07:48:53,750 - GET http://meta.wikimedia.org/wiki/Special:RecordImpression?banner=Wiknic2013&campaign=Wiknic2013&result=show&country=US&uselang=en&project=wikipedia&db=enwiki&bucket=0&anonymous=true&device=desktop -> 200 (15ms)
-2013-06-20 07:48:53,757 - GET http://upload.wikimedia.org/wikipedia/commons/thumb/3/39/Leaf_icon_15.svg/25px-Leaf_icon_15.svg.png -> 200 (7ms)
-2013-06-20 07:48:53,759 - GET http://bits.wikimedia.org/skins/common/images/closewindow19x19.png -> 200 (6ms)
-2013-06-20 07:48:53,760 - GET http://upload.wikimedia.org/wikipedia/commons/0/0d/Gray-gradient1.png -> 200 (8ms)
+2013-06-20 09:07:17,243 - / Starting \
+2013-06-20 09:07:17,246 - Please wait for "You may start your tests" to start your tests.
+2013-06-20 09:07:17,253 - Forwarding: ['sauce-connect.proxy']:['80'] -> 127.0.0.1:['39401']
+2013-06-20 09:07:17,270 - Succesfully connected to local server 127.0.0.1:39401 in 11ms
+2013-06-20 09:07:17,700 - {"squid_config":null,"use_caching_proxy":true,"metadata":{"PythonVersion":"2.5.1","OwnerHost":"127.0.0.1","Release":"3.0-r25","OwnerPorts":["39401"],"Ports":["80"],"Platform":"Java-1.7.0_03-Java_HotSpot-TM-_64-Bit_Server_VM,_22.1-b02,_Oracle_Corporation-on-Linux-2.6.32-358.2.1.el6.x86_64-amd64","Build":"38","ScriptRelease":38,"ScriptName":"sauce_connect"},"use_kgp":true,"tunnel_identifier":"","shared_tunnel":false,"fast_fail_regexps":null,"ssh_port":443,"direct_domains":null,"domain_names":["sauce-connect.proxy"]}
+2013-06-20 09:07:17,996 - Tunnel remote VM is provisioned (cefd45a1b99545c6bb2d1bbc90ec6738)
+2013-06-20 09:07:18,220 - Tunnel remote VM is new ..
+2013-06-20 09:07:21,417 - Tunnel remote VM is deploying ..
+2013-06-20 09:07:24,694 - Tunnel remote VM is booting ..
+2013-06-20 09:07:37,615 - Tunnel remote VM is running at maki10168.miso.saucelabs.com
+2013-06-20 09:07:37,635 - Succesfully connected to local server 127.0.0.1:39401 in 1ms
+2013-06-20 09:07:37,641 - Starting connection to tunnel host...
+2013-06-20 09:07:37,642 - Connecting to tunnel host maki10168.miso.saucelabs.com as barquin
+2013-06-20 09:07:37,792 - Forwarding Selenium with ephemeral port 46879
+2013-06-20 09:07:37.795:INFO::jetty-7.x.y-SNAPSHOT
+2013-06-20 09:07:37.810:INFO::Started SelectChannelConnector@0.0.0.0:4445
+2013-06-20 09:07:37,811 - Selenium HTTP proxy listening on port 4445
+2013-06-20 09:07:38,184 - Successful handshake with Sauce Connect server
+2013-06-20 09:07:38,263 - Tunnel host version: 0.1.0, remote endpoint ID: ae024a3c9ee54167a0586d4a9fd6f000
+2013-06-20 09:07:38,267 - Connected! You may start your tests.
+2013-06-20 09:07:46,267 - GET http://en.wikipedia.org/ -> 301 (86ms)
+2013-06-20 09:07:46,267 - GET http://en.wikipedia.org/ -> 301 (30ms)
+2013-06-20 09:07:46,407 - GET http://en.wikipedia.org/wiki/Main_Page -> 200 (22ms)
+2013-06-20 09:07:46,476 - GET http://en.wikipedia.org/wiki/Main_Page -> 200 (14ms)
+2013-06-20 09:07:46,644 - GET http://bits.wikimedia.org/en.wikipedia.org/load.php?debug=false&lang=en&modules=startup&only=scripts&skin=vector&* -> 200 (60ms)
+2013-06-20 09:07:46,647 - GET http://bits.wikimedia.org/en.wikipedia.org/load.php?debug=false&lang=en&modules=site&only=styles&skin=vector&* -> 200 (67ms)
+2013-06-20 09:07:46,651 - GET http://bits.wikimedia.org/en.wikipedia.org/load.php?debug=false&lang=en&modules=ext.gadget.DRN-wizard%2CReferenceTooltips%2Ccharinsert%2Cteahouse%7Cext.rtlcite%2Cwikihiero%7Cmediawiki.legacy.commonPrint%2Cshared%7Cmw.PopUpMediaTransform%7Cskins.vector&only=styles&skin=vector&* -> 200 (73ms)
+2013-06-20 09:07:46,694 - GET http://bits.wikimedia.org/geoiplookup -> 200 (7ms)
+2013-06-20 09:07:46,782 - GET http://en.wikipedia.org/w/index.php?title=MediaWiki:Gadget-ReferenceTooltips.js&action=raw&ctype=text/javascript&508635914 -> 200 (9ms)
+2013-06-20 09:07:46,786 - GET http://bits.wikimedia.org/en.wikipedia.org/load.php?debug=false&lang=en&modules=site&only=scripts&skin=vector&* -> 200 (9ms)
+2013-06-20 09:07:46,796 - GET http://bits.wikimedia.org/geoiplookup -> 200 (11ms)
+2013-06-20 09:07:46,799 - GET http://bits.wikimedia.org/en.wikipedia.org/load.php?debug=false&lang=en&modules=site&only=styles&skin=vector&* -> 200 (19ms)
+2013-06-20 09:07:46,802 - GET http://en.wikipedia.org/w/index.php?title=MediaWiki:Gadget-ReferenceTooltips.js&action=raw&ctype=text/javascript&508635914 -> 200 (13ms)
+2013-06-20 09:07:46,799 - GET http://bits.wikimedia.org/en.wikipedia.org/load.php?debug=false&lang=en&modules=ext.gadget.DRN-wizard%2CReferenceTooltips%2Ccharinsert%2Cteahouse%7Cext.rtlcite%2Cwikihiero%7Cmediawiki.legacy.commonPrint%2Cshared%7Cmw.PopUpMediaTransform%7Cskins.vector&only=styles&skin=vector&* -> 200 (23ms)
+2013-06-20 09:07:46,803 - GET http://bits.wikimedia.org/en.wikipedia.org/load.php?debug=false&lang=en&modules=startup&only=scripts&skin=vector&* -> 200 (22ms)
+2013-06-20 09:07:46,930 - GET http://en.wikipedia.org/ -> 301 (8ms)
+2013-06-20 09:07:46,931 - GET http://en.wikipedia.org/ -> 301 (11ms)
+2013-06-20 09:07:46,934 - GET http://bits.wikimedia.org/en.wikipedia.org/load.php?debug=false&lang=en&modules=site&only=scripts&skin=vector&* -> 200 (14ms)
+2013-06-20 09:07:47,095 - GET http://en.wikipedia.org/wiki/Main_Page -> 200 (13ms)
+2013-06-20 09:07:47,117 - GET http://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/IanHaug2007.jpg/100px-IanHaug2007.jpg -> 200 (106ms)
+2013-06-20 09:07:47,124 - GET http://upload.wikimedia.org/wikipedia/en/9/9d/Commons-logo-31px.png -> 200 (34ms)
+2013-06-20 09:07:47,128 - GET http://upload.wikimedia.org/wikipedia/en/thumb/e/e0/Statni_pohreb_Vaclava_Havla_23.12.2011_318_cropped.jpg/75px-Statni_pohreb_Vaclava_Havla_23.12.2011_318_cropped.jpg -> 200 (114ms)
+2013-06-20 09:07:47,130 - GET http://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/IanHaug2007.jpg/100px-IanHaug2007.jpg -> 200 (19ms)
+2013-06-20 09:07:47,124 - GET http://upload.wikimedia.org/wikipedia/commons/thumb/3/30/Bugsy_Siegel.jpg/83px-Bugsy_Siegel.jpg -> 200 (109ms)
+2013-06-20 09:07:47,128 - GET http://upload.wikimedia.org/wikipedia/commons/thumb/0/01/Coburg-St.Augustin.jpg/66px-Coburg-St.Augustin.jpg -> 200 (115ms)
+2013-06-20 09:07:47,128 - GET http://en.wikipedia.org/wiki/Main_Page -> 200 (44ms)
+2013-06-20 09:07:47,132 - GET http://bits.wikimedia.org/en.wikipedia.org/load.php?debug=false&lang=en&modules=jquery%2Cmediawiki%2CSpinner%7Cjquery.triggerQueueCallback%2CloadingSpinner%2CmwEmbedUtil%7Cmw.MwEmbedSupport&only=scripts&skin=vector&version=20130606T161301Z -> 200 (43ms)
+2013-06-20 09:07:47,130 - GET http://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Aeroflot_Airbus_A330_Kustov_edit.jpg/400px-Aeroflot_Airbus_A330_Kustov_edit.jpg -> 200 (45ms)
+2013-06-20 09:07:47,148 - GET http://upload.wikimedia.org/wikipedia/commons/thumb/0/01/Coburg-St.Augustin.jpg/66px-Coburg-St.Augustin.jpg -> 200 (28ms)
+2013-06-20 09:07:47,200 - GET http://upload.wikimedia.org/wikipedia/en/thumb/e/e0/Statni_pohreb_Vaclava_Havla_23.12.2011_318_cropped.jpg/75px-Statni_pohreb_Vaclava_Havla_23.12.2011_318_cropped.jpg -> 200 (12ms)
+2013-06-20 09:07:47,210 - GET http://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Aeroflot_Airbus_A330_Kustov_edit.jpg/400px-Aeroflot_Airbus_A330_Kustov_edit.jpg -> 200 (15ms)
+2013-06-20 09:07:47,200 - GET http://upload.wikimedia.org/wikipedia/commons/thumb/3/30/Bugsy_Siegel.jpg/83px-Bugsy_Siegel.jpg -> 200 (12ms)
+2013-06-20 09:07:47,213 - GET http://upload.wikimedia.org/wikipedia/en/9/9d/Commons-logo-31px.png -> 200 (15ms)
+2013-06-20 09:07:47,226 - GET http://bits.wikimedia.org/en.wikipedia.org/load.php?debug=false&lang=en&modules=jquery%2Cmediawiki%2CSpinner%7Cjquery.triggerQueueCallback%2CloadingSpinner%2CmwEmbedUtil%7Cmw.MwEmbedSupport&only=scripts&skin=vector&version=20130606T161301Z -> 200 (26ms)
+2013-06-20 09:07:47,286 - GET http://bits.wikimedia.org/favicon/wikipedia.ico -> 200 (14ms)
+2013-06-20 09:07:47,286 - GET http://bits.wikimedia.org/en.wikipedia.org/load.php?debug=false&lang=en&modules=site&only=styles&skin=vector&* -> 200 (15ms)
+2013-06-20 09:07:47,293 - GET http://bits.wikimedia.org/en.wikipedia.org/load.php?debug=false&lang=en&modules=site&only=styles&skin=vector&* -> 200 (21ms)
+2013-06-20 09:07:47,296 - GET http://bits.wikimedia.org/en.wikipedia.org/load.php?debug=false&lang=en&modules=ext.gadget.DRN-wizard%2CReferenceTooltips%2Ccharinsert%2Cteahouse%7Cext.rtlcite%2Cwikihiero%7Cmediawiki.legacy.commonPrint%2Cshared%7Cmw.PopUpMediaTransform%7Cskins.vector&only=styles&skin=vector&* -> 200 (24ms)
+2013-06-20 09:07:47,295 - GET http://bits.wikimedia.org/geoiplookup -> 200 (16ms)
+2013-06-20 09:07:47,293 - GET http://bits.wikimedia.org/geoiplookup -> 200 (18ms)
+2013-06-20 09:07:47,305 - GET http://bits.wikimedia.org/en.wikipedia.org/load.php?debug=false&lang=en&modules=startup&only=scripts&skin=vector&* -> 200 (29ms)
+2013-06-20 09:07:47,306 - GET http://bits.wikimedia.org/en.wikipedia.org/load.php?debug=false&lang=en&modules=startup&only=scripts&skin=vector&* -> 200 (30ms)
+2013-06-20 09:07:47,315 - GET http://bits.wikimedia.org/en.wikipedia.org/load.php?debug=false&lang=en&modules=ext.gadget.DRN-wizard%2CReferenceTooltips%2Ccharinsert%2Cteahouse%7Cext.rtlcite%2Cwikihiero%7Cmediawiki.legacy.commonPrint%2Cshared%7Cmw.PopUpMediaTransform%7Cskins.vector&only=styles&skin=vector&* -> 200 (40ms)
+2013-06-20 09:07:47,351 - GET http://upload.wikimedia.org/wikipedia/en/b/bc/Meta-logo-35px.png -> 200 (8ms)
+2013-06-20 09:07:47,355 - GET http://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/Mediawiki-logo.png/35px-Mediawiki-logo.png -> 200 (10ms)
+2013-06-20 09:07:47,355 - GET http://upload.wikimedia.org/wikipedia/en/7/7f/Wikibooks-logo-35px.png -> 200 (10ms)
+2013-06-20 09:07:47,357 - GET http://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/Mediawiki-logo.png/35px-Mediawiki-logo.png -> 200 (8ms)
+2013-06-20 09:07:47,357 - GET http://bits.wikimedia.org/favicon/wikipedia.ico -> 200 (12ms)
+2013-06-20 09:07:47,358 - GET http://upload.wikimedia.org/wikipedia/en/b/bc/Meta-logo-35px.png -> 200 (7ms)
+2013-06-20 09:07:47,359 - GET http://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/Wikidata-logo.svg/47px-Wikidata-logo.svg.png -> 200 (11ms)
+2013-06-20 09:07:47,369 - GET http://upload.wikimedia.org/wikipedia/en/7/7f/Wikibooks-logo-35px.png -> 200 (6ms)
+2013-06-20 09:07:47,371 - GET http://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/Wikidata-logo.svg/47px-Wikidata-logo.svg.png -> 200 (8ms)
+2013-06-20 09:07:47,375 - GET http://upload.wikimedia.org/wikipedia/en/6/60/Wikinews-logo-51px.png -> 200 (11ms)
+2013-06-20 09:07:47,408 - GET http://upload.wikimedia.org/wikipedia/en/4/46/Wikiquote-logo-51px.png -> 200 (6ms)
+2013-06-20 09:07:47,424 - GET http://bits.wikimedia.org/en.wikipedia.org/load.php?debug=false&lang=en&modules=ext.centralNotice.bannerController%7Cext.wikimediaShopLink.core%7Cjquery.client%2Ccookie%2CmwExtension%7Cmediawiki.cldr%2CjqueryMsg%2Clanguage%2Cnotify%2Cutil%7Cmediawiki.language.data%2Cinit%7Cmediawiki.legacy.ajax%2Cwikibits%7Cmediawiki.libs.pluralruleparser%7Cmediawiki.page.startup%7Cwikibase.client.init&skin=vector&version=20130620T130424Z&* -> 200 (12ms)
+2013-06-20 09:07:47,440 - GET http://bits.wikimedia.org/en.wikipedia.org/load.php?debug=false&lang=en&modules=ext.vector.footerCleanup&skin=vector&version=20130620T021509Z&* -> 200 (8ms)
+2013-06-20 09:07:47,440 - GET http://upload.wikimedia.org/wikipedia/en/6/60/Wikinews-logo-51px.png -> 200 (8ms)
+2013-06-20 09:07:47,443 - GET http://upload.wikimedia.org/wikipedia/en/4/46/Wikiquote-logo-51px.png -> 200 (9ms)
+2013-06-20 09:07:47,473 - GET http://bits.wikimedia.org/en.wikipedia.org/load.php?debug=false&lang=en&modules=site&only=scripts&skin=vector&* -> 200 (7ms)
+2013-06-20 09:07:47,473 - GET http://bits.wikimedia.org/images/wikimedia-button.png -> 200 (7ms)
+2013-06-20 09:07:47,483 - GET http://bits.wikimedia.org/static-1.22wmf6/skins/vector/images/search-ltr.png?303-4 -> 200 (5ms)
+2013-06-20 09:07:47,486 - GET http://bits.wikimedia.org/static-1.22wmf6/skins/common/images/poweredby_mediawiki_88x31.png -> 200 (7ms)
+2013-06-20 09:07:47,489 - GET http://upload.wikimedia.org/wikipedia/en/7/7f/Wikibooks-logo-35px.png -> 200 (8ms)
+2013-06-20 09:07:47,490 - GET http://upload.wikimedia.org/wikipedia/commons/thumb/3/30/Bugsy_Siegel.jpg/83px-Bugsy_Siegel.jpg -> 200 (8ms)
+2013-06-20 09:07:47,496 - GET http://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Aeroflot_Airbus_A330_Kustov_edit.jpg/400px-Aeroflot_Airbus_A330_Kustov_edit.jpg -> 200 (15ms)
+2013-06-20 09:07:47,496 - GET http://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Wikivoyage-logo.svg/35px-Wikivoyage-logo.svg.png -> 200 (10ms)
+2013-06-20 09:07:47,500 - GET http://upload.wikimedia.org/wikipedia/en/9/9d/Commons-logo-31px.png -> 200 (7ms)
+2013-06-20 09:07:47,499 - GET http://upload.wikimedia.org/wikipedia/en/b/bf/Wikispecies-logo-35px.png -> 200 (12ms)
+2013-06-20 09:07:47,500 - GET http://en.wikipedia.org/w/index.php?title=MediaWiki:Gadget-ReferenceTooltips.js&action=raw&ctype=text/javascript&508635914 -> 200 (20ms)
+2013-06-20 09:07:47,503 - GET http://upload.wikimedia.org/wikipedia/en/6/60/Wikinews-logo-51px.png -> 200 (6ms)
+2013-06-20 09:07:47,506 - GET http://upload.wikimedia.org/wikipedia/commons/thumb/0/01/Coburg-St.Augustin.jpg/66px-Coburg-St.Augustin.jpg -> 200 (11ms)
+2013-06-20 09:07:47,506 - GET http://upload.wikimedia.org/wikipedia/en/thumb/e/e0/Statni_pohreb_Vaclava_Havla_23.12.2011_318_cropped.jpg/75px-Statni_pohreb_Vaclava_Havla_23.12.2011_318_cropped.jpg -> 200 (13ms)
+2013-06-20 09:07:47,513 - GET http://upload.wikimedia.org/wikipedia/en/4/46/Wikiquote-logo-51px.png -> 200 (17ms)
+2013-06-20 09:07:47,515 - GET http://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/Mediawiki-logo.png/35px-Mediawiki-logo.png -> 200 (19ms)
+2013-06-20 09:07:47,507 - GET http://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/Wikidata-logo.svg/47px-Wikidata-logo.svg.png -> 200 (11ms)
+2013-06-20 09:07:47,512 - GET http://upload.wikimedia.org/wikipedia/en/b/bc/Meta-logo-35px.png -> 200 (17ms)
+2013-06-20 09:07:47,512 - GET http://upload.wikimedia.org/wikipedia/en/e/e3/Wikiversity-logo-41px.png -> 200 (12ms)
+2013-06-20 09:07:47,516 - GET http://upload.wikimedia.org/wikipedia/en/b/b6/Wikisource-logo-35px.png -> 200 (18ms)
+2013-06-20 09:07:47,525 - GET http://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/IanHaug2007.jpg/100px-IanHaug2007.jpg -> 200 (13ms)
+2013-06-20 09:07:47,525 - GET http://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/Mediawiki-logo.png/35px-Mediawiki-logo.png -> 200 (10ms)
+2013-06-20 09:07:47,529 - GET http://bits.wikimedia.org/en.wikipedia.org/load.php?debug=false&lang=en&modules=jquery%2Cmediawiki%2CSpinner%7Cjquery.triggerQueueCallback%2CloadingSpinner%2CmwEmbedUtil%7Cmw.MwEmbedSupport&only=scripts&skin=vector&version=20130606T161301Z -> 200 (41ms)
+2013-06-20 09:07:47,519 - GET http://upload.wikimedia.org/wikipedia/en/f/f2/Wiktionary-logo-51px.png -> 200 (20ms)
+2013-06-20 09:07:47,526 - GET http://upload.wikimedia.org/wikipedia/en/thumb/e/e0/Statni_pohreb_Vaclava_Havla_23.12.2011_318_cropped.jpg/75px-Statni_pohreb_Vaclava_Havla_23.12.2011_318_cropped.jpg -> 200 (13ms)
+2013-06-20 09:07:47,530 - GET http://upload.wikimedia.org/wikipedia/commons/thumb/0/01/Coburg-St.Augustin.jpg/66px-Coburg-St.Augustin.jpg -> 200 (13ms)
+2013-06-20 09:07:47,532 - GET http://upload.wikimedia.org/wikipedia/commons/thumb/3/30/Bugsy_Siegel.jpg/83px-Bugsy_Siegel.jpg -> 200 (18ms)
+2013-06-20 09:07:47,540 - GET http://upload.wikimedia.org/wikipedia/en/b/bc/Meta-logo-35px.png -> 200 (21ms)
+2013-06-20 09:07:47,542 - GET http://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/IanHaug2007.jpg/100px-IanHaug2007.jpg -> 200 (48ms)
+2013-06-20 09:07:47,542 - GET http://upload.wikimedia.org/wikipedia/en/b/b6/Wikisource-logo-35px.png -> 200 (22ms)
+2013-06-20 09:07:47,545 - GET http://upload.wikimedia.org/wikipedia/en/9/9d/Commons-logo-31px.png -> 200 (29ms)
+2013-06-20 09:07:47,549 - GET http://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Aeroflot_Airbus_A330_Kustov_edit.jpg/400px-Aeroflot_Airbus_A330_Kustov_edit.jpg -> 200 (37ms)
+2013-06-20 09:07:47,562 - GET http://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/Wikidata-logo.svg/47px-Wikidata-logo.svg.png -> 200 (7ms)
+2013-06-20 09:07:47,565 - GET http://upload.wikimedia.org/wikipedia/en/b/b6/Wikisource-logo-35px.png -> 200 (7ms)
+2013-06-20 09:07:47,566 - GET http://upload.wikimedia.org/wikipedia/en/6/60/Wikinews-logo-51px.png -> 200 (10ms)
+2013-06-20 09:07:47,565 - GET http://upload.wikimedia.org/wikipedia/en/b/bf/Wikispecies-logo-35px.png -> 200 (9ms)
+2013-06-20 09:07:47,568 - GET http://upload.wikimedia.org/wikipedia/en/b/bf/Wikispecies-logo-35px.png -> 200 (6ms)
+2013-06-20 09:07:47,571 - GET http://upload.wikimedia.org/wikipedia/en/f/f2/Wiktionary-logo-51px.png -> 200 (10ms)
+2013-06-20 09:07:47,572 - GET http://upload.wikimedia.org/wikipedia/en/b/bf/Wikispecies-logo-35px.png -> 200 (11ms)
+2013-06-20 09:07:47,572 - GET http://upload.wikimedia.org/wikipedia/en/b/b6/Wikisource-logo-35px.png -> 200 (13ms)
+2013-06-20 09:07:47,575 - GET http://upload.wikimedia.org/wikipedia/en/4/46/Wikiquote-logo-51px.png -> 200 (14ms)
+2013-06-20 09:07:47,565 - GET http://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Wikivoyage-logo.svg/35px-Wikivoyage-logo.svg.png -> 200 (8ms)
+2013-06-20 09:07:47,572 - GET http://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Wikivoyage-logo.svg/35px-Wikivoyage-logo.svg.png -> 200 (11ms)
+2013-06-20 09:07:47,575 - GET http://upload.wikimedia.org/wikipedia/en/e/e3/Wikiversity-logo-41px.png -> 200 (11ms)
+2013-06-20 09:07:47,579 - GET http://bits.wikimedia.org/images/wikimedia-button.png -> 200 (7ms)
+2013-06-20 09:07:47,579 - GET http://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Wikivoyage-logo.svg/35px-Wikivoyage-logo.svg.png -> 200 (18ms)
+2013-06-20 09:07:47,581 - GET http://upload.wikimedia.org/wikipedia/en/7/7f/Wikibooks-logo-35px.png -> 200 (8ms)
+2013-06-20 09:07:47,586 - GET http://upload.wikimedia.org/wikipedia/en/e/e3/Wikiversity-logo-41px.png -> 200 (8ms)
+2013-06-20 09:07:47,586 - GET http://bits.wikimedia.org/static-1.22wmf6/skins/vector/images/search-ltr.png?303-4 -> 200 (8ms)
+2013-06-20 09:07:47,588 - GET http://bits.wikimedia.org/static-1.22wmf6/skins/vector/images/search-ltr.png?303-4 -> 200 (11ms)
+2013-06-20 09:07:47,588 - GET http://upload.wikimedia.org/wikipedia/en/e/e3/Wikiversity-logo-41px.png -> 200 (12ms)
+2013-06-20 09:07:47,586 - GET http://bits.wikimedia.org/static-1.22wmf6/skins/common/images/poweredby_mediawiki_88x31.png -> 200 (18ms)
+2013-06-20 09:07:47,589 - GET http://bits.wikimedia.org/images/wikimedia-button.png -> 200 (7ms)
+2013-06-20 09:07:47,592 - GET http://en.wikipedia.org/w/index.php?title=MediaWiki:Gadget-ReferenceTooltips.js&action=raw&ctype=text/javascript&508635914 -> 200 (8ms)
+2013-06-20 09:07:47,605 - GET http://bits.wikimedia.org/static-1.22wmf6/skins/common/images/poweredby_mediawiki_88x31.png -> 200 (10ms)
+2013-06-20 09:07:47,607 - GET http://bits.wikimedia.org/static-1.22wmf6/skins/vector/images/search-ltr.png?303-4 -> 200 (5ms)
+2013-06-20 09:07:47,607 - GET http://upload.wikimedia.org/wikipedia/en/f/f2/Wiktionary-logo-51px.png -> 200 (7ms)
+2013-06-20 09:07:47,608 - GET http://upload.wikimedia.org/wikipedia/en/f/f2/Wiktionary-logo-51px.png -> 200 (6ms)
+2013-06-20 09:07:47,608 - GET http://bits.wikimedia.org/en.wikipedia.org/load.php?debug=false&lang=en&modules=site&only=scripts&skin=vector&* -> 200 (11ms)
+2013-06-20 09:07:47,621 - GET http://bits.wikimedia.org/images/wikimedia-button.png -> 200 (11ms)
+2013-06-20 09:07:47,622 - GET http://bits.wikimedia.org/en.wikipedia.org/load.php?debug=false&lang=en&modules=ext.vector.footerCleanup&skin=vector&version=20130620T021509Z&* -> 200 (12ms)
+2013-06-20 09:07:47,622 - GET http://bits.wikimedia.org/static-1.22wmf6/skins/common/images/poweredby_mediawiki_88x31.png -> 200 (12ms)
+2013-06-20 09:07:47,632 - GET http://bits.wikimedia.org/en.wikipedia.org/load.php?debug=false&lang=en&modules=jquery%2Cmediawiki%2CSpinner%7Cjquery.triggerQueueCallback%2CloadingSpinner%2CmwEmbedUtil%7Cmw.MwEmbedSupport&only=scripts&skin=vector&version=20130606T161301Z -> 200 (33ms)
+2013-06-20 09:07:47,644 - GET http://bits.wikimedia.org/en.wikipedia.org/load.php?debug=false&lang=en&modules=ext.centralNotice.bannerController%7Cext.wikimediaShopLink.core%7Cjquery.client%2Ccookie%2CmwExtension%7Cmediawiki.cldr%2CjqueryMsg%2Clanguage%2Cnotify%2Cutil%7Cmediawiki.language.data%2Cinit%7Cmediawiki.legacy.ajax%2Cwikibits%7Cmediawiki.libs.pluralruleparser%7Cmediawiki.page.startup%7Cwikibase.client.init&skin=vector&version=20130620T130323Z&* -> 200 (33ms)
+2013-06-20 09:07:47,684 - GET http://upload.wikimedia.org/wikipedia/en/b/bc/Wiki.png -> 200 (17ms)
+2013-06-20 09:07:47,841 - GET http://bits.wikimedia.org/en.wikipedia.org/load.php?debug=false&lang=en&modules=ext.vector.footerCleanup&skin=vector&version=20130620T021509Z&* -> 200 (7ms)
+2013-06-20 09:07:47,888 - GET http://bits.wikimedia.org/en.wikipedia.org/load.php?debug=false&lang=en&modules=ext.centralNotice.bannerController%7Cext.wikimediaShopLink.core%7Cjquery.client%2Ccookie%2CmwExtension%7Cmediawiki.cldr%2CjqueryMsg%2Clanguage%2Cnotify%2Cutil%7Cmediawiki.language.data%2Cinit%7Cmediawiki.legacy.ajax%2Cwikibits%7Cmediawiki.libs.pluralruleparser%7Cmediawiki.page.startup%7Cwikibase.client.init&skin=vector&version=20130620T130424Z&* -> 200 (54ms)
+2013-06-20 09:07:47,891 - GET http://upload.wikimedia.org/wikipedia/en/b/bc/Wiki.png -> 200 (22ms)
+2013-06-20 09:07:47,900 - GET http://bits.wikimedia.org/en.wikipedia.org/load.php?debug=false&lang=en&modules=ext.vector.footerCleanup&skin=vector&version=20130620T021509Z&* -> 200 (9ms)
+2013-06-20 09:07:47,908 - GET http://bits.wikimedia.org/en.wikipedia.org/load.php?debug=false&lang=en&modules=ext.centralNotice.bannerController%7Cext.wikimediaShopLink.core%7Cjquery.client%2Ccookie%2CmwExtension%7Cmediawiki.cldr%2CjqueryMsg%2Clanguage%2Cnotify%2Cutil%7Cmediawiki.language.data%2Cinit%7Cmediawiki.legacy.ajax%2Cwikibits%7Cmediawiki.libs.pluralruleparser%7Cmediawiki.page.startup%7Cwikibase.client.init&skin=vector&version=20130620T130424Z&* -> 200 (19ms)
+2013-06-20 09:07:47,911 - GET http://bits.wikimedia.org/en.wikipedia.org/load.php?debug=false&lang=en&modules=ext.visualEditor.splitTest&skin=vector&version=20130619T014016Z&* -> 200 (18ms)
+2013-06-20 09:07:47,913 - GET http://bits.wikimedia.org/en.wikipedia.org/load.php?debug=false&lang=en&modules=ext.vector.collapsibleNav%2CcollapsibleTabs%7Cjquery.collapsibleTabs&skin=vector&version=20130620T021509Z&* -> 200 (20ms)
+2013-06-20 09:07:47,923 - GET http://bits.wikimedia.org/en.wikipedia.org/load.php?debug=false&lang=en&modules=ext.articleFeedbackv5.startup%7Cext.eventLogging%2CmarkAsHelpful%2CnavigationTiming%7Cext.gadget.DRN-wizard%2CReferenceTooltips%2Ccharinsert%2Cteahouse%7Cext.gettingstarted.logging%2CopenTask%7Cjquery.articleFeedbackv5.utils%7Cjquery.autoEllipsis%2CcheckboxShiftClick%2CdelayedBind%2Chidpi%2ChighlightText%2Cjson%2CmakeCollapsible%2Cmw-jump%2Cplaceholder%2Csuggestions%2CtabIndex%7Cmediawiki.Title%2Capi%2Chidpi%2CsearchSuggest%2Cuser%7Cmediawiki.action.view.postEdit%7Cmediawiki.page.ready%7Cmobile.desktop%7Cmw.MwEmbedSupport.style%7Cmw.PopUpMediaTransform%7Cschema.Edit%2CGettingStartedNavbar%2CNavigationTiming%7Cskins.vector.js&skin=vector&version=20130620T021509Z&* -> 200 (30ms)
+2013-06-20 09:07:47,940 - GET http://meta.wikimedia.org/wiki/Special:BannerRandom?uselang=en&sitename=Wikipedia&project=wikipedia&anonymous=true&bucket=0&country=US&device=desktop&slot=1 -> 200 (47ms)
+2013-06-20 09:07:47,971 - GET http://bits.wikimedia.org/en.wikipedia.org/load.php?debug=false&lang=en&modules=jquery.ui.button%2Ccore%2Cdialog%2Cdraggable%2Cmouse%2Cposition%2Cresizable%2Cwidget&skin=vector&version=20130606T161047Z&* -> 200 (15ms)
+2013-06-20 09:07:48,068 - GET http://meta.wikimedia.org/wiki/Special:BannerRandom?uselang=en&sitename=Wikipedia&project=wikipedia&anonymous=true&bucket=0&country=US&device=desktop&slot=13 -> 200 (8ms)
+2013-06-20 09:07:48,177 - GET http://en.wikipedia.org/w/opensearch_desc.php -> 200 (7ms)
+2013-06-20 09:07:48,262 - GET http://en.wikipedia.org/w/opensearch_desc.php -> 200 (7ms)
+2013-06-20 09:07:48,384 - GET http://bits.wikimedia.org/en.wikipedia.org/load.php?debug=false&lang=en&modules=ext.vector.collapsibleNav%2CcollapsibleTabs%7Cjquery.collapsibleTabs&skin=vector&version=20130620T021509Z&* -> 200 (7ms)
+2013-06-20 09:07:48,384 - GET http://bits.wikimedia.org/en.wikipedia.org/load.php?debug=false&lang=en&modules=ext.visualEditor.splitTest&skin=vector&version=20130619T014016Z&* -> 200 (7ms)
+2013-06-20 09:07:48,387 - GET http://meta.wikimedia.org/wiki/Special:BannerRandom?uselang=en&sitename=Wikipedia&project=wikipedia&anonymous=true&bucket=1&country=US&device=desktop&slot=4 -> 200 (8ms)
+2013-06-20 09:07:48,394 - GET http://meta.wikimedia.org/wiki/Special:RecordImpression?banner=Wiknic2013&campaign=Wiknic2013&result=show&country=US&uselang=en&project=wikipedia&db=enwiki&bucket=0&anonymous=true&device=desktop -> 200 (14ms)
+2013-06-20 09:07:48,394 - GET http://bits.wikimedia.org/en.wikipedia.org/load.php?debug=false&lang=en&modules=ext.visualEditor.splitTest&skin=vector&version=20130619T014016Z&* -> 200 (12ms)
+2013-06-20 09:07:48,398 - GET http://upload.wikimedia.org/wikipedia/commons/0/0d/Gray-gradient1.png -> 200 (15ms)
+2013-06-20 09:07:48,398 - GET http://upload.wikimedia.org/wikipedia/en/b/bc/Wiki.png -> 200 (21ms)
+2013-06-20 09:07:48,400 - GET http://meta.wikimedia.org/wiki/Special:BannerRandom?uselang=en&sitename=Wikipedia&project=wikipedia&anonymous=true&bucket=0&country=US&device=desktop&slot=6 -> 200 (17ms)
+2013-06-20 09:07:48,411 - GET http://bits.wikimedia.org/en.wikipedia.org/load.php?debug=false&lang=en&modules=ext.vector.collapsibleNav%2CcollapsibleTabs%7Cjquery.collapsibleTabs&skin=vector&version=20130620T021509Z&* -> 200 (29ms)
+2013-06-20 09:07:48,413 - GET http://upload.wikimedia.org/wikipedia/en/b/bc/Wiki.png -> 200 (31ms)
+2013-06-20 09:07:48,415 - GET http://bits.wikimedia.org/en.wikipedia.org/load.php?debug=false&lang=en&modules=ext.articleFeedbackv5.startup%7Cext.eventLogging%2CmarkAsHelpful%2CnavigationTiming%7Cext.gadget.DRN-wizard%2CReferenceTooltips%2Ccharinsert%2Cteahouse%7Cext.gettingstarted.logging%2CopenTask%7Cjquery.articleFeedbackv5.utils%7Cjquery.autoEllipsis%2CcheckboxShiftClick%2CdelayedBind%2Chidpi%2ChighlightText%2Cjson%2CmakeCollapsible%2Cmw-jump%2Cplaceholder%2Csuggestions%2CtabIndex%7Cmediawiki.Title%2Capi%2Chidpi%2CsearchSuggest%2Cuser%7Cmediawiki.action.view.postEdit%7Cmediawiki.page.ready%7Cmobile.desktop%7Cmw.MwEmbedSupport.style%7Cmw.PopUpMediaTransform%7Cschema.Edit%2CGettingStartedNavbar%2CNavigationTiming%7Cskins.vector.js&skin=vector&version=20130620T021509Z&* -> 200 (39ms)
+2013-06-20 09:07:48,421 - GET http://bits.wikimedia.org/en.wikipedia.org/load.php?debug=false&lang=en&modules=jquery.ui.button%2Ccore%2Cdialog%2Cdraggable%2Cmouse%2Cposition%2Cresizable%2Cwidget&skin=vector&version=20130606T161047Z&* -> 200 (43ms)
+2013-06-20 09:07:48,423 - GET http://bits.wikimedia.org/en.wikipedia.org/load.php?debug=false&lang=en&modules=jquery.ui.button%2Ccore%2Cdialog%2Cdraggable%2Cmouse%2Cposition%2Cresizable%2Cwidget&skin=vector&version=20130606T161047Z&* -> 200 (41ms)
+2013-06-20 09:07:48,430 - GET http://bits.wikimedia.org/en.wikipedia.org/load.php?debug=false&lang=en&modules=ext.articleFeedbackv5.startup%7Cext.eventLogging%2CmarkAsHelpful%2CnavigationTiming%7Cext.gadget.DRN-wizard%2CReferenceTooltips%2Ccharinsert%2Cteahouse%7Cext.gettingstarted.logging%2CopenTask%7Cjquery.articleFeedbackv5.utils%7Cjquery.autoEllipsis%2CcheckboxShiftClick%2CdelayedBind%2Chidpi%2ChighlightText%2Cjson%2CmakeCollapsible%2Cmw-jump%2Cplaceholder%2Csuggestions%2CtabIndex%7Cmediawiki.Title%2Capi%2Chidpi%2CsearchSuggest%2Cuser%7Cmediawiki.action.view.postEdit%7Cmediawiki.page.ready%7Cmobile.desktop%7Cmw.MwEmbedSupport.style%7Cmw.PopUpMediaTransform%7Cschema.Edit%2CGettingStartedNavbar%2CNavigationTiming%7Cskins.vector.js&skin=vector&version=20130620T021509Z&* -> 200 (47ms)
+2013-06-20 09:07:48,434 - GET http://upload.wikimedia.org/wikipedia/commons/thumb/3/39/Leaf_icon_15.svg/25px-Leaf_icon_15.svg.png -> 200 (13ms)
+2013-06-20 09:07:48,434 - GET http://bits.wikimedia.org/skins/common/images/closewindow19x19.png -> 200 (12ms)
+2013-06-20 09:07:48,500 - GET http://meta.wikimedia.org/wiki/Special:RecordImpression?banner=Wiknic2013&campaign=Wiknic2013&result=show&country=US&uselang=en&project=wikipedia&db=enwiki&bucket=1&anonymous=true&device=desktop -> 200 (7ms)
+2013-06-20 09:07:48,539 - GET http://meta.wikimedia.org/wiki/Special:RecordImpression?banner=Wiknic2013&campaign=Wiknic2013&result=show&country=US&uselang=en&project=wikipedia&db=enwiki&bucket=0&anonymous=true&device=desktop -> 200 (6ms)
+2013-06-20 09:07:48,569 - GET http://meta.wikimedia.org/wiki/Special:RecordImpression?banner=Wiknic2013&campaign=Wiknic2013&result=show&country=US&uselang=en&project=wikipedia&db=enwiki&bucket=0&anonymous=true&device=desktop -> 200 (9ms)
+2013-06-20 09:07:48,572 - GET http://upload.wikimedia.org/wikipedia/commons/0/0d/Gray-gradient1.png -> 200 (10ms)
+2013-06-20 09:07:48,575 - GET http://bits.wikimedia.org/skins/common/images/closewindow19x19.png -> 200 (15ms)
+2013-06-20 09:07:48,575 - GET http://upload.wikimedia.org/wikipedia/commons/thumb/3/39/Leaf_icon_15.svg/25px-Leaf_icon_15.svg.png -> 200 (14ms)
+2013-06-20 09:07:48,581 - GET http://upload.wikimedia.org/wikipedia/commons/thumb/3/39/Leaf_icon_15.svg/25px-Leaf_icon_15.svg.png -> 200 (9ms)
+2013-06-20 09:07:48,584 - GET http://upload.wikimedia.org/wikipedia/commons/0/0d/Gray-gradient1.png -> 200 (10ms)
+2013-06-20 09:07:48,586 - GET http://bits.wikimedia.org/skins/common/images/closewindow19x19.png -> 200 (15ms)
+2013-06-20 09:07:48,657 - GET http://upload.wikimedia.org/wikipedia/commons/0/0d/Gray-gradient1.png -> 200 (9ms)
+2013-06-20 09:07:48,680 - GET http://upload.wikimedia.org/wikipedia/commons/thumb/3/39/Leaf_icon_15.svg/25px-Leaf_icon_15.svg.png -> 200 (35ms)
 
 An error occurred in an after hook
   Selenium::WebDriver::Error::WebDriverError: unexpected response, code=404, content-type="text/plain"
-ERROR Job 834ac831bf4246bab9066365cfbf28d6 is not in progress. It may have recently finished, or experienced an error. You can learn more at https://saucelabs.com/jobs/834ac831bf4246bab9066365cfbf28d6
-  occurred at /home/babsetz/.rvm/gems/ruby-1.9.3-head@sauce/gems/selenium-webdriver-2.33.0/lib/selenium/webdriver/remote/http/common.rb:66:in `create_response'
+ERROR Job 71302fbd602044438536278e0cde1c7e is not in progress. It may have recently finished, or experienced an error. You can learn more at https://saucelabs.com/jobs/71302fbd602044438536278e0cde1c7e
+  occurred at /home/babsetz/.rvm/gems/ruby-1.9.3-head@nusauce/gems/selenium-webdriver-2.33.0/lib/selenium/webdriver/remote/http/common.rb:66:in `create_response'
+
+
+An error occurred in an after hook
+  Selenium::WebDriver::Error::WebDriverError: unexpected response, code=404, content-type="text/plain"
+ERROR Job 43f3e3918c1b4b02ae492c9fcd7e53e3 is not in progress. It may have recently finished, or experienced an error. You can learn more at https://saucelabs.com/jobs/43f3e3918c1b4b02ae492c9fcd7e53e3
+  occurred at /home/babsetz/.rvm/gems/ruby-1.9.3-head@nusauce/gems/selenium-webdriver-2.33.0/lib/selenium/webdriver/remote/http/common.rb:66:in `create_response'
 
 
 An error occurred in an around(:each) hook
   Selenium::WebDriver::Error::WebDriverError: unexpected response, code=404, content-type="text/plain"
-ERROR Job 834ac831bf4246bab9066365cfbf28d6 is not in progress. It may have recently finished, or experienced an error. You can learn more at https://saucelabs.com/jobs/834ac831bf4246bab9066365cfbf28d6
-  occurred at /home/babsetz/.rvm/gems/ruby-1.9.3-head@sauce/gems/selenium-webdriver-2.33.0/lib/selenium/webdriver/remote/http/common.rb:66:in `create_response'
+ERROR Job f400e03c7b3c4a8e93276a8d01167343 is not in progress. It may have recently finished, or experienced an error. You can learn more at https://saucelabs.com/jobs/f400e03c7b3c4a8e93276a8d01167343
+  occurred at /home/babsetz/.rvm/gems/ruby-1.9.3-head@nusauce/gems/selenium-webdriver-2.33.0/lib/selenium/webdriver/remote/http/common.rb:66:in `create_response'
 
-F2013-06-20 07:54:03,390 - GET http://en.wikipedia.org/wiki/Main_Page -> 200 (19ms)
-2013-06-20 07:54:03,667 - GET http://bits.wikimedia.org/en.wikipedia.org/load.php?debug=false&lang=en&modules=site&only=styles&skin=vector&* -> 200 (16ms)
-2013-06-20 07:54:03,674 - GET http://bits.wikimedia.org/en.wikipedia.org/load.php?debug=false&lang=en&modules=ext.gadget.DRN-wizard%2CReferenceTooltips%2Ccharinsert%2Cteahouse%7Cext.rtlcite%2Cwikihiero%7Cmediawiki.legacy.commonPrint%2Cshared%7Cmw.PopUpMediaTransform%7Cskins.vector&only=styles&skin=vector&* -> 200 (26ms)
-2013-06-20 07:54:03,680 - GET http://en.wikipedia.org/w/index.php?title=MediaWiki:Gadget-ReferenceTooltips.js&action=raw&ctype=text/javascript&508635914 -> 200 (9ms)
-2013-06-20 07:54:03,681 - GET http://bits.wikimedia.org/geoiplookup -> 200 (15ms)
-2013-06-20 07:54:03,683 - GET http://bits.wikimedia.org/en.wikipedia.org/load.php?debug=false&lang=en&modules=startup&only=scripts&skin=vector&* -> 200 (15ms)
-2013-06-20 07:54:03,730 - GET http://bits.wikimedia.org/en.wikipedia.org/load.php?debug=false&lang=en&modules=site&only=scripts&skin=vector&* -> 200 (7ms)
-2013-06-20 07:54:04,039 - GET http://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/IanHaug2007.jpg/100px-IanHaug2007.jpg -> 200 (41ms)
-2013-06-20 07:54:04,111 - GET http://upload.wikimedia.org/wikipedia/commons/thumb/3/30/Bugsy_Siegel.jpg/83px-Bugsy_Siegel.jpg -> 200 (32ms)
-2013-06-20 07:54:04,115 - GET http://upload.wikimedia.org/wikipedia/en/9/9d/Commons-logo-31px.png -> 200 (32ms)
-2013-06-20 07:54:04,128 - GET http://upload.wikimedia.org/wikipedia/en/thumb/e/e0/Statni_pohreb_Vaclava_Havla_23.12.2011_318_cropped.jpg/75px-Statni_pohreb_Vaclava_Havla_23.12.2011_318_cropped.jpg -> 200 (48ms)
-2013-06-20 07:54:04,134 - GET http://upload.wikimedia.org/wikipedia/commons/thumb/0/01/Coburg-St.Augustin.jpg/66px-Coburg-St.Augustin.jpg -> 200 (50ms)
-2013-06-20 07:54:04,144 - GET http://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Aeroflot_Airbus_A330_Kustov_edit.jpg/400px-Aeroflot_Airbus_A330_Kustov_edit.jpg -> 200 (61ms)
-2013-06-20 07:54:04,236 - GET http://bits.wikimedia.org/en.wikipedia.org/load.php?debug=false&lang=en&modules=ext.centralNotice.bannerController%7Cext.wikimediaShopLink.core%7Cjquery.client%2Ccookie%2CmwExtension%7Cmediawiki.cldr%2CjqueryMsg%2Clanguage%2Cnotify%2Cutil%7Cmediawiki.language.data%2Cinit%7Cmediawiki.legacy.ajax%2Cwikibits%7Cmediawiki.libs.pluralruleparser%7Cmediawiki.page.startup%7Cwikibase.client.init&skin=vector&version=20130620T115316Z&* -> 200 (51ms)
-2013-06-20 07:54:04,246 - GET http://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/Mediawiki-logo.png/35px-Mediawiki-logo.png -> 200 (22ms)
-2013-06-20 07:54:04,247 - GET http://upload.wikimedia.org/wikipedia/en/b/bc/Meta-logo-35px.png -> 200 (21ms)
-2013-06-20 07:54:04,279 - GET http://upload.wikimedia.org/wikipedia/en/7/7f/Wikibooks-logo-35px.png -> 200 (19ms)
-2013-06-20 07:54:04,280 - GET http://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/Wikidata-logo.svg/47px-Wikidata-logo.svg.png -> 200 (18ms)
-2013-06-20 07:54:04,375 - GET http://upload.wikimedia.org/wikipedia/en/4/46/Wikiquote-logo-51px.png -> 200 (24ms)
-2013-06-20 07:54:04,375 - GET http://upload.wikimedia.org/wikipedia/en/6/60/Wikinews-logo-51px.png -> 200 (25ms)
-2013-06-20 07:54:04,427 - GET http://upload.wikimedia.org/wikipedia/en/b/b6/Wikisource-logo-35px.png -> 200 (22ms)
-2013-06-20 07:54:04,428 - GET http://bits.wikimedia.org/images/wikimedia-button.png -> 200 (23ms)
-2013-06-20 07:54:04,441 - GET http://upload.wikimedia.org/wikipedia/en/b/bf/Wikispecies-logo-35px.png -> 200 (36ms)
-2013-06-20 07:54:04,461 - GET http://upload.wikimedia.org/wikipedia/en/e/e3/Wikiversity-logo-41px.png -> 200 (17ms)
-2013-06-20 07:54:04,530 - GET http://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Wikivoyage-logo.svg/35px-Wikivoyage-logo.svg.png -> 200 (18ms)
-2013-06-20 07:54:04,562 - GET http://upload.wikimedia.org/wikipedia/en/b/bc/Wiki.png -> 200 (49ms)
-2013-06-20 07:54:04,605 - GET http://upload.wikimedia.org/wikipedia/en/f/f2/Wiktionary-logo-51px.png -> 200 (17ms)
-2013-06-20 07:54:04,796 - GET http://meta.wikimedia.org/wiki/Special:BannerRandom?uselang=en&sitename=Wikipedia&project=wikipedia&anonymous=true&bucket=1&country=US&device=desktop&slot=5 -> 200 (32ms)
-2013-06-20 07:54:04,967 - GET http://en.wikipedia.org/w/opensearch_desc.php -> 200 (17ms)
-2013-06-20 07:54:05,148 - GET http://bits.wikimedia.org/favicon/wikipedia.ico -> 200 (30ms)
-2013-06-20 07:54:05,331 - GET http://meta.wikimedia.org/wiki/Special:RecordImpression?banner=Wiknic2013&campaign=Wiknic2013&result=show&country=US&uselang=en&project=wikipedia&db=enwiki&bucket=1&anonymous=true&device=desktop -> 200 (24ms)
-2013-06-20 07:54:05,332 - GET http://upload.wikimedia.org/wikipedia/commons/thumb/3/39/Leaf_icon_15.svg/25px-Leaf_icon_15.svg.png -> 200 (21ms)
-2013-06-20 07:54:05,345 - GET http://upload.wikimedia.org/wikipedia/commons/0/0d/Gray-gradient1.png -> 200 (34ms)
-2013-06-20 07:54:05,404 - GET http://bits.wikimedia.org/skins/common/images/closewindow19x19.png -> 200 (18ms)
-
-An error occurred in an after hook
-  Selenium::WebDriver::Error::WebDriverError: unexpected response, code=404, content-type="text/plain"
-ERROR Job 7065e75fcb2149c586f40b41b5b844f5 is not in progress. It may have recently finished, or experienced an error. You can learn more at https://saucelabs.com/jobs/7065e75fcb2149c586f40b41b5b844f5
-  occurred at /home/babsetz/.rvm/gems/ruby-1.9.3-head@sauce/gems/selenium-webdriver-2.33.0/lib/selenium/webdriver/remote/http/common.rb:66:in `create_response'
-
-
+F
 An error occurred in an around(:each) hook
   Selenium::WebDriver::Error::WebDriverError: unexpected response, code=404, content-type="text/plain"
-ERROR Job 7065e75fcb2149c586f40b41b5b844f5 is not in progress. It may have recently finished, or experienced an error. You can learn more at https://saucelabs.com/jobs/7065e75fcb2149c586f40b41b5b844f5
-  occurred at /home/babsetz/.rvm/gems/ruby-1.9.3-head@sauce/gems/selenium-webdriver-2.33.0/lib/selenium/webdriver/remote/http/common.rb:66:in `create_response'
+ERROR Job adc22a50b3ca4e47b44eb4d964edc88c is not in progress. It may have recently finished, or experienced an error. You can learn more at https://saucelabs.com/jobs/adc22a50b3ca4e47b44eb4d964edc88c
+  occurred at /home/babsetz/.rvm/gems/ruby-1.9.3-head@nusauce/gems/selenium-webdriver-2.33.0/lib/selenium/webdriver/remote/http/common.rb:66:in `create_response'
 
-F2013-06-20 07:59:08,994 - received SIGINT
-2013-06-20 07:59:09,009 - Shutting down tunnel remote VM (please wait)
-2013-06-20 07:59:09,641 - Tunnel remote VM is halting ..
-2013-06-20 07:59:16,098 - Finished shutting down tunnel remote VM
-2013-06-20 07:59:16,098 - \ Finished /
-[2013-06-20 07:59:17] INFO  going to shutdown ...
-[2013-06-20 07:59:17] INFO  WEBrick::HTTPServer#start done.
-Exiting
-
+F
 
 Failures:
 
   1) Wikipedia's Miso Page Should mention a favorite type of Miso
      Failure/Error: fill_in 'search', :with => "Miso"
      Net::HTTP::Persistent::Error:
-       too many connection resets (due to Connection reset by peer - Errno::ECONNRESET) after 3 requests on 25906460, last used 299.999785786 seconds ago
+       too many connection resets (due to Connection reset by peer - Errno::ECONNRESET) after 3 requests on 25264080, last used 299.989009465 seconds ago
      # ./spec/features/miso_spec.rb:6:in `block (2 levels) in <top (required)>'
 
-  2) Wikipedia's Ramen Page Should mention the inventor of instant Ramen
-     Failure/Error: fill_in 'search', :with => "Ramen"
-     Net::HTTP::Persistent::Error:
-       too many connection resets (due to Connection reset by peer - Errno::ECONNRESET) after 5 requests on 25906460, last used 299.989787232 seconds ago
-     # ./spec/features/ramen_spec.rb:6:in `block (2 levels) in <top (required)>'
-
-Finished in 11 minutes 8.98 seconds
-2 examples, 2 failures
+Finished in 5 minutes 42.77 seconds
+1 example, 1 failure
 
 Failed examples:
 
 rspec ./spec/features/miso_spec.rb:4 # Wikipedia's Miso Page Should mention a favorite type of Miso
+
+Randomized with seed 43807
+
+
+An error occurred in an around(:each) hook
+  Selenium::WebDriver::Error::WebDriverError: unexpected response, code=404, content-type="text/plain"
+ERROR Job 71302fbd602044438536278e0cde1c7e is not in progress. It may have recently finished, or experienced an error. You can learn more at https://saucelabs.com/jobs/71302fbd602044438536278e0cde1c7e
+  occurred at /home/babsetz/.rvm/gems/ruby-1.9.3-head@nusauce/gems/selenium-webdriver-2.33.0/lib/selenium/webdriver/remote/http/common.rb:66:in `create_response'
+
+F
+
+Failures:
+
+  1) Wikipedia's Ramen Page Should mention the inventor of instant Ramen
+     Failure/Error: fill_in 'search', :with => "Ramen"
+     Net::HTTP::Persistent::Error:
+       too many connection resets (due to Connection reset by peer - Errno::ECONNRESET) after 3 requests on 34821640, last used 299.988753806 seconds ago
+     # ./spec/features/ramen_spec.rb:6:in `block (2 levels) in <top (required)>'
+
+Finished in 5 minutes 42.89 seconds
+1 example, 1 failure
+
+Failed examples:
+
 rspec ./spec/features/ramen_spec.rb:4 # Wikipedia's Ramen Page Should mention the inventor of instant Ramen
 
-Randomized with seed 26036
+Randomized with seed 54000
+
+
+An error occurred in an around(:each) hook
+  Selenium::WebDriver::Error::WebDriverError: unexpected response, code=404, content-type="text/plain"
+ERROR Job 43f3e3918c1b4b02ae492c9fcd7e53e3 is not in progress. It may have recently finished, or experienced an error. You can learn more at https://saucelabs.com/jobs/43f3e3918c1b4b02ae492c9fcd7e53e3
+  occurred at /home/babsetz/.rvm/gems/ruby-1.9.3-head@nusauce/gems/selenium-webdriver-2.33.0/lib/selenium/webdriver/remote/http/common.rb:66:in `create_response'
+
+F
+
+Failures:
+
+  1) Wikipedia's Miso Page Should mention a favorite type of Miso
+     Failure/Error: fill_in 'search', :with => "Miso"
+     Net::HTTP::Persistent::Error:
+       too many connection resets (due to Connection reset by peer - Errno::ECONNRESET) after 3 requests on 18171660, last used 299.979017185 seconds ago
+     # ./spec/features/miso_spec.rb:6:in `block (2 levels) in <top (required)>'
+
+Finished in 5 minutes 42.85 seconds
+1 example, 1 failure
+
+Failed examples:
+
+rspec ./spec/features/miso_spec.rb:4 # Wikipedia's Miso Page Should mention a favorite type of Miso
+
+Randomized with seed 6862
+
+2013-06-20 09:12:53,615 - received SIGINT
+
+
+Failures:
+
+  1) Wikipedia's Ramen Page Should mention the inventor of instant Ramen
+2013-06-20 09:12:53,624 - Shutting down tunnel remote VM (please wait)
+2013-06-20 09:12:54,405 - Tunnel remote VM is halting ..
+2013-06-20 09:13:00,844 - Finished shutting down tunnel remote VM
+2013-06-20 09:13:00,845 - \ Finished /
+     Failure/Error: fill_in 'search', :with => "Ramen"
+     Net::HTTP::Persistent::Error:
+       too many connection resets (due to Connection reset by peer - Errno::ECONNRESET) after 3 requests on 39776200, last used 299.990517813 seconds ago
+     # ./spec/features/ramen_spec.rb:6:in `block (2 levels) in <top (required)>'
+
+Finished in 5 minutes 51.65 seconds
+1 example, 1 failure
+
+Failed examples:
+
+rspec ./spec/features/ramen_spec.rb:4 # Wikipedia's Ramen Page Should mention the inventor of instant Ramen
+
+Randomized with seed 24723
+
+
+4 examples, 4 failures
+
+Took 358.040214285 seconds
+Tests Failed

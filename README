@@ -1,4 +1,5 @@
 Version Information:
+HOME_DEV
 
 dev@sandbox:~/railsapps/sauce$ rails -v
 Rails 3.0.12
@@ -11,9 +12,11 @@ java version "1.7.0_21"
 Java(TM) SE Runtime Environment (build 1.7.0_21-b11)
 Java HotSpot(TM) 64-Bit Server VM (build 23.21-b01, mixed mode)
 
--------CURRENT RUN CONSOLE OUTPUT--------------------
+--------------------------------------
+ Version Information
+ WORK_VM
 
- sauce]$ rvm list
+ [sauce]$ rvm list
 
  rvm rubies
 
@@ -34,108 +37,4 @@ Java HotSpot(TM) 64-Bit Server VM (build 23.21-b01, mixed mode)
  [sauce]$ ruby -v
  ruby 1.9.3p165 (2012-03-18 revision 35078) [x86_64-linux]
 
-
- [sauce]$ rake sauce:spec
- 20 processes for 4 specs, ~ 0 specs per process
-
-
-
- Took 5.096910337 seconds
- Tests Failed
-
-
-
--------PRIOR RUNS ATTEMPT CONSOLE OUTPUT-------------------------
-
-dev@sandbox:~/railsapps/sauce$ rake sauce:spec
-20 processes for 4 specs, ~ 0 specs per process
-[Connecting to Sauce Labs...]Sauce Connect 3.0-r25, build 38
-
-* Debug messages will be sent to sauce_connect.log
-F
-
-Failures:
-
-  1) Wikipedia's Miso Page Should mention a favorite type of Miso
-     Failure/Error: visit "http://en.wikipedia.org/"
-     Capybara::DriverNotFoundError:
-       no driver called :sauce was found, available drivers: :rack_test, :selenium
-     # ./spec/features/miso_spec.rb:5:in `block (2 levels) in <top (required)>'
-
-Finished in 44.71 seconds
-1 example, 1 failure
-
-Failed examples:
-
-rspec ./spec/features/miso_spec.rb:4 # Wikipedia's Miso Page Should mention a favorite type of Miso
-
-Randomized with seed 58376
-
-F
-
-Failures:
-
-  1) Wikipedia's Miso Page Should mention a favorite type of Miso
-     Failure/Error: visit "http://en.wikipedia.org/"
-     Capybara::DriverNotFoundError:
-       no driver called :sauce was found, available drivers: :rack_test, :selenium
-     # ./spec/features/miso_spec.rb:5:in `block (2 levels) in <top (required)>'
-
-Finished in 44.77 seconds
-1 example, 1 failure
-
-Failed examples:
-
-rspec ./spec/features/miso_spec.rb:4 # Wikipedia's Miso Page Should mention a favorite type of Miso
-
-Randomized with seed 11607
-
-F
-
-Failures:
-
-  1) Wikipedia's Ramen Page Should mention the inventor of instant Ramen
-     Failure/Error: visit "http://en.wikipedia.org/"
-     Capybara::DriverNotFoundError:
-       no driver called :sauce was found, available drivers: :rack_test, :selenium
-     # ./spec/features/ramen_spec.rb:5:in `block (2 levels) in <top (required)>'
-
-Finished in 45.04 seconds
-1 example, 1 failure
-
-Failed examples:
-
-rspec ./spec/features/ramen_spec.rb:4 # Wikipedia's Ramen Page Should mention the inventor of instant Ramen
-
-Randomized with seed 25305
-
-F2013-06-17 17:10:21.380:INFO::jetty-7.x.y-SNAPSHOT
-2013-06-17 17:10:21.414:INFO::Started SelectChannelConnector@0.0.0.0:54476
-.---------------------------------------------------.
-|  Have questions or need help with Sauce Connect?  |
-|  Contact us: http://support.saucelabs.com/forums  |
-|  Terms of Service: http://saucelabs.com/tos       |
------------------------------------------------------
-2013-06-17 17:10:21,424 - / Starting \
-2013-06-17 17:10:21,427 - Please wait for "You may start your tests" to start your tests.
-2013-06-17 17:10:21,437 - Forwarding: ['sauce-connect.proxy']:['80'] -> 127.0.0.1:['54476']
-2013-06-17 17:10:21,450 - Succesfully connected to local server 127.0.0.1:54476 in 9ms
-2013-06-17 17:10:21,907 - {"squid_config":null,"use_caching_proxy":true,"metadata":{"PythonVersion":"2.5.1","OwnerHost":"127.0.0.1","Release":"3.0-r25","OwnerPorts":["54476"],"Ports":["80"],"Platform":"Java-1.7.0_21-Java_HotSpot-TM-_64-Bit_Server_VM,_23.21-b01,_Oracle_Corporation-on-Linux-3.8.0-19-generic-amd64","Build":"38","ScriptRelease":38,"ScriptName":"sauce_connect"},"use_kgp":true,"tunnel_identifier":"","shared_tunnel":false,"fast_fail_regexps":null,"ssh_port":443,"direct_domains":null,"domain_names":["sauce-connect.proxy"]}
-2013-06-17 17:10:22,237 - Tunnel remote VM is provisioned (a2238a6005b34e2a9169ae597740b42d)
-2013-06-17 17:10:22,473 - Tunnel remote VM is new ..
-2013-06-17 17:10:25,707 - Tunnel remote VM is deploying ..
-2013-06-17 17:10:28,947 - Tunnel remote VM is booting ..
-2013-06-17 17:10:45,112 - Tunnel remote VM is running at maki8240.miso.saucelabs.com
-2013-06-17 17:10:45,138 - Succesfully connected to local server 127.0.0.1:54476 in 2ms
-2013-06-17 17:10:45,141 - Starting connection to tunnel host...
-2013-06-17 17:10:45,144 - Connecting to tunnel host maki8240.miso.saucelabs.com as barquin
-2013-06-17 17:10:45,397 - Forwarding Selenium with ephemeral port 58143
-2013-06-17 17:10:45.398:INFO::jetty-7.x.y-SNAPSHOT
-2013-06-17 17:10:45.412:INFO::Started SelectChannelConnector@0.0.0.0:4445
-2013-06-17 17:10:45,411 - Selenium HTTP proxy listening on port 4445
-2013-06-17 17:10:45,934 - Successful handshake with Sauce Connect server
-2013-06-17 17:10:46,055 - Tunnel host version: 0.1.0, remote endpoint ID: c3ebfef060424ec4a8a5f82c40fc78d5
-2013-06-17 17:10:46,059 - Connected! You may start your tests.
-^CParallel execution interrupted, exiting ...
-dev@sandbox:~/railsapps/sauce$ 
-
+ -----------
