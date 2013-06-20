@@ -180,3 +180,102 @@
 2013-06-19 14:50:47,197 - sauce_connect:0 - INFO - GET http://upload.wikimedia.org/wikipedia/commons/thumb/3/39/Leaf_icon_15.svg/25px-Leaf_icon_15.svg.png -> 200 (15ms)
 2013-06-19 14:50:47,206 - sauce_connect:0 - INFO - GET http://upload.wikimedia.org/wikipedia/commons/0/0d/Gray-gradient1.png -> 200 (21ms)
 2013-06-19 14:50:57,075 - sauce_connect:0 - INFO - received SIGINT
+2013-06-20 07:48:23,894 - sauce_connect:554 - INFO - / Starting \
+2013-06-20 07:48:23,900 - sauce_connect:555 - INFO - Please wait for "You may start your tests" to start your tests.
+2013-06-20 07:48:23,907 - sauce_connect:567 - DEBUG - System is -4.0 hours off UTC
+2013-06-20 07:48:23,910 - sauce_connect:569 - DEBUG - options: {'user': 'barquin', 'ports': ['51261'], 'domains': ['sauce-connect.proxy'], 'debug_ssh': False, 'tunnel_ports': ['80'], 'allow_unclean_exit': False, 'rest_url': 'https://saucelabs.com/rest/v1', 'logfile': 'sauce_connect.log', 'squid_opts': '', 'boost_mode': True, 'tunnel_identifier': '', 'fast_fail_regexps': '', 'quiet': False, 'latency_log': 150, 'use_ssh_config': False, 'ssh': False, 'se_port': '4445', 'readyfile': 'sauce_connect.ready', 'shared_tunnel': False, 'ssh_port': 443, 'direct_domains': '', 'host': '127.0.0.1'}
+2013-06-20 07:48:23,911 - sauce_connect:570 - DEBUG - metadata: {'PythonVersion': '2.5.1', 'OwnerHost': '127.0.0.1', 'Release': '3.0-r25', 'OwnerPorts': ['51261'], 'Ports': ['80'], 'Platform': 'Java-1.7.0_03-Java_HotSpot-TM-_64-Bit_Server_VM,_22.1-b02,_Oracle_Corporation-on-Linux-2.6.32-358.2.1.el6.x86_64-amd64', 'Build': '38', 'ScriptRelease': 38, 'ScriptName': 'sauce_connect'}
+2013-06-20 07:48:23,913 - sauce_connect:572 - INFO - Forwarding: ['sauce-connect.proxy']:['80'] -> 127.0.0.1:['51261']
+2013-06-20 07:48:23,944 - sauce_connect:371 - INFO - Succesfully connected to local server 127.0.0.1:51261 in 14ms
+2013-06-20 07:48:24,388 - sauce_connect:234 - INFO - {"squid_config":null,"use_caching_proxy":true,"metadata":{"PythonVersion":"2.5.1","OwnerHost":"127.0.0.1","Release":"3.0-r25","OwnerPorts":["51261"],"Ports":["80"],"Platform":"Java-1.7.0_03-Java_HotSpot-TM-_64-Bit_Server_VM,_22.1-b02,_Oracle_Corporation-on-Linux-2.6.32-358.2.1.el6.x86_64-amd64","Build":"38","ScriptRelease":38,"ScriptName":"sauce_connect"},"use_kgp":true,"tunnel_identifier":"","shared_tunnel":false,"fast_fail_regexps":null,"ssh_port":443,"direct_domains":null,"domain_names":["sauce-connect.proxy"]}
+2013-06-20 07:48:24,638 - sauce_connect:246 - INFO - Tunnel remote VM is provisioned (e97c40156ea04f638387fd628a050f59)
+2013-06-20 07:48:24,862 - sauce_connect:264 - INFO - Tunnel remote VM is new ..
+2013-06-20 07:48:28,088 - sauce_connect:264 - INFO - Tunnel remote VM is deploying ..
+2013-06-20 07:48:31,369 - sauce_connect:264 - INFO - Tunnel remote VM is booting ..
+2013-06-20 07:48:44,322 - sauce_connect:268 - INFO - Tunnel remote VM is running at maki11139.miso.saucelabs.com
+2013-06-20 07:48:44,371 - sauce_connect:371 - INFO - Succesfully connected to local server 127.0.0.1:51261 in 1ms
+2013-06-20 07:48:44,375 - sauce_connect:642 - INFO - Starting connection to tunnel host...
+2013-06-20 07:48:44,378 - sauce_connect:642 - INFO - Connecting to tunnel host maki11139.miso.saucelabs.com as barquin
+2013-06-20 07:48:44,752 - sauce_connect:642 - INFO - Forwarding Selenium with ephemeral port 35679
+2013-06-20 07:48:44,770 - sauce_connect:642 - INFO - Selenium HTTP proxy listening on port 4445
+2013-06-20 07:48:45,138 - sauce_connect:0 - INFO - Successful handshake with Sauce Connect server
+2013-06-20 07:48:45,216 - sauce_connect:0 - INFO - Tunnel host version: 0.1.0, remote endpoint ID: 8b578e8fccce423183ba06dcb9c682a4
+2013-06-20 07:48:45,220 - sauce_connect:642 - INFO - Connected! You may start your tests.
+2013-06-20 07:48:51,664 - sauce_connect:0 - INFO - GET http://en.wikipedia.org/ -> 301 (166ms)
+2013-06-20 07:48:51,766 - sauce_connect:0 - INFO - GET http://en.wikipedia.org/wiki/Main_Page -> 200 (16ms)
+2013-06-20 07:48:52,028 - sauce_connect:0 - INFO - GET http://bits.wikimedia.org/geoiplookup -> 200 (15ms)
+2013-06-20 07:48:52,032 - sauce_connect:0 - INFO - GET http://bits.wikimedia.org/en.wikipedia.org/load.php?debug=false&lang=en&modules=site&only=styles&skin=vector&* -> 200 (95ms)
+2013-06-20 07:48:52,040 - sauce_connect:0 - INFO - GET http://bits.wikimedia.org/en.wikipedia.org/load.php?debug=false&lang=en&modules=startup&only=scripts&skin=vector&* -> 200 (98ms)
+2013-06-20 07:48:52,045 - sauce_connect:0 - INFO - GET http://bits.wikimedia.org/en.wikipedia.org/load.php?debug=false&lang=en&modules=ext.gadget.DRN-wizard%2CReferenceTooltips%2Ccharinsert%2Cteahouse%7Cext.rtlcite%2Cwikihiero%7Cmediawiki.legacy.commonPrint%2Cshared%7Cmw.PopUpMediaTransform%7Cskins.vector&only=styles&skin=vector&* -> 200 (111ms)
+2013-06-20 07:48:52,124 - sauce_connect:0 - INFO - GET http://en.wikipedia.org/w/index.php?title=MediaWiki:Gadget-ReferenceTooltips.js&action=raw&ctype=text/javascript&508635914 -> 200 (10ms)
+2013-06-20 07:48:52,128 - sauce_connect:0 - INFO - GET http://bits.wikimedia.org/en.wikipedia.org/load.php?debug=false&lang=en&modules=site&only=scripts&skin=vector&* -> 200 (10ms)
+2013-06-20 07:48:52,384 - sauce_connect:0 - INFO - GET http://bits.wikimedia.org/en.wikipedia.org/load.php?debug=false&lang=en&modules=jquery%2Cmediawiki%2CSpinner%7Cjquery.triggerQueueCallback%2CloadingSpinner%2CmwEmbedUtil%7Cmw.MwEmbedSupport&only=scripts&skin=vector&version=20130606T161301Z -> 200 (26ms)
+2013-06-20 07:48:52,671 - sauce_connect:0 - INFO - GET http://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/IanHaug2007.jpg/100px-IanHaug2007.jpg -> 200 (104ms)
+2013-06-20 07:48:52,671 - sauce_connect:0 - INFO - GET http://upload.wikimedia.org/wikipedia/commons/thumb/0/01/Coburg-St.Augustin.jpg/66px-Coburg-St.Augustin.jpg -> 200 (102ms)
+2013-06-20 07:48:52,674 - sauce_connect:0 - INFO - GET http://upload.wikimedia.org/wikipedia/en/thumb/e/e0/Statni_pohreb_Vaclava_Havla_23.12.2011_318_cropped.jpg/75px-Statni_pohreb_Vaclava_Havla_23.12.2011_318_cropped.jpg -> 200 (101ms)
+2013-06-20 07:48:52,677 - sauce_connect:0 - INFO - GET http://upload.wikimedia.org/wikipedia/commons/thumb/3/30/Bugsy_Siegel.jpg/83px-Bugsy_Siegel.jpg -> 200 (110ms)
+2013-06-20 07:48:52,681 - sauce_connect:0 - INFO - GET http://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Aeroflot_Airbus_A330_Kustov_edit.jpg/400px-Aeroflot_Airbus_A330_Kustov_edit.jpg -> 200 (111ms)
+2013-06-20 07:48:52,670 - sauce_connect:0 - INFO - GET http://upload.wikimedia.org/wikipedia/en/9/9d/Commons-logo-31px.png -> 200 (97ms)
+2013-06-20 07:48:52,694 - sauce_connect:0 - INFO - GET http://bits.wikimedia.org/en.wikipedia.org/load.php?debug=false&lang=en&modules=ext.vector.footerCleanup&skin=vector&version=20130620T021509Z&* -> 200 (12ms)
+2013-06-20 07:48:52,707 - sauce_connect:0 - INFO - GET http://bits.wikimedia.org/en.wikipedia.org/load.php?debug=false&lang=en&modules=ext.centralNotice.bannerController%7Cext.wikimediaShopLink.core%7Cjquery.client%2Ccookie%2CmwExtension%7Cmediawiki.cldr%2CjqueryMsg%2Clanguage%2Cnotify%2Cutil%7Cmediawiki.language.data%2Cinit%7Cmediawiki.legacy.ajax%2Cwikibits%7Cmediawiki.libs.pluralruleparser%7Cmediawiki.page.startup%7Cwikibase.client.init&skin=vector&version=20130620T114414Z&* -> 200 (25ms)
+2013-06-20 07:48:52,766 - sauce_connect:0 - INFO - GET http://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/Mediawiki-logo.png/35px-Mediawiki-logo.png -> 200 (11ms)
+2013-06-20 07:48:52,773 - sauce_connect:0 - INFO - GET http://upload.wikimedia.org/wikipedia/en/b/bc/Meta-logo-35px.png -> 200 (8ms)
+2013-06-20 07:48:52,845 - sauce_connect:0 - INFO - GET http://upload.wikimedia.org/wikipedia/en/7/7f/Wikibooks-logo-35px.png -> 200 (7ms)
+2013-06-20 07:48:52,848 - sauce_connect:0 - INFO - GET http://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/Wikidata-logo.svg/47px-Wikidata-logo.svg.png -> 200 (8ms)
+2013-06-20 07:48:52,861 - sauce_connect:0 - INFO - GET http://upload.wikimedia.org/wikipedia/en/6/60/Wikinews-logo-51px.png -> 200 (6ms)
+2013-06-20 07:48:52,865 - sauce_connect:0 - INFO - GET http://upload.wikimedia.org/wikipedia/en/4/46/Wikiquote-logo-51px.png -> 200 (8ms)
+2013-06-20 07:48:52,865 - sauce_connect:0 - INFO - GET http://upload.wikimedia.org/wikipedia/en/b/b6/Wikisource-logo-35px.png -> 200 (8ms)
+2013-06-20 07:48:52,931 - sauce_connect:0 - INFO - GET http://upload.wikimedia.org/wikipedia/en/b/bf/Wikispecies-logo-35px.png -> 200 (7ms)
+2013-06-20 07:48:52,933 - sauce_connect:0 - INFO - GET http://bits.wikimedia.org/static-1.22wmf6/skins/vector/images/search-ltr.png?303-4 -> 200 (6ms)
+2013-06-20 07:48:52,951 - sauce_connect:0 - INFO - GET http://upload.wikimedia.org/wikipedia/en/e/e3/Wikiversity-logo-41px.png -> 200 (6ms)
+2013-06-20 07:48:52,951 - sauce_connect:0 - INFO - GET http://bits.wikimedia.org/images/wikimedia-button.png -> 200 (7ms)
+2013-06-20 07:48:52,964 - sauce_connect:0 - INFO - GET http://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Wikivoyage-logo.svg/35px-Wikivoyage-logo.svg.png -> 200 (7ms)
+2013-06-20 07:48:52,966 - sauce_connect:0 - INFO - GET http://bits.wikimedia.org/static-1.22wmf6/skins/common/images/poweredby_mediawiki_88x31.png -> 200 (8ms)
+2013-06-20 07:48:52,966 - sauce_connect:0 - INFO - GET http://upload.wikimedia.org/wikipedia/en/f/f2/Wiktionary-logo-51px.png -> 200 (8ms)
+2013-06-20 07:48:53,015 - sauce_connect:0 - INFO - GET http://upload.wikimedia.org/wikipedia/en/b/bc/Wiki.png -> 200 (15ms)
+2013-06-20 07:48:53,233 - sauce_connect:0 - INFO - GET http://bits.wikimedia.org/en.wikipedia.org/load.php?debug=false&lang=en&modules=ext.vector.collapsibleNav%2CcollapsibleTabs%7Cjquery.collapsibleTabs&skin=vector&version=20130620T021509Z&* -> 200 (11ms)
+2013-06-20 07:48:53,243 - sauce_connect:0 - INFO - GET http://bits.wikimedia.org/en.wikipedia.org/load.php?debug=false&lang=en&modules=ext.articleFeedbackv5.startup%7Cext.eventLogging%2CmarkAsHelpful%2CnavigationTiming%7Cext.gadget.DRN-wizard%2CReferenceTooltips%2Ccharinsert%2Cteahouse%7Cext.gettingstarted.logging%2CopenTask%7Cjquery.articleFeedbackv5.utils%7Cjquery.autoEllipsis%2CcheckboxShiftClick%2CdelayedBind%2Chidpi%2ChighlightText%2Cjson%2CmakeCollapsible%2Cmw-jump%2Cplaceholder%2Csuggestions%2CtabIndex%7Cmediawiki.Title%2Capi%2Chidpi%2CsearchSuggest%2Cuser%7Cmediawiki.action.view.postEdit%7Cmediawiki.page.ready%7Cmobile.desktop%7Cmw.MwEmbedSupport.style%7Cmw.PopUpMediaTransform%7Cschema.Edit%2CGettingStartedNavbar%2CNavigationTiming%7Cskins.vector.js&skin=vector&version=20130620T021509Z&* -> 200 (20ms)
+2013-06-20 07:48:53,298 - sauce_connect:0 - INFO - GET http://meta.wikimedia.org/wiki/Special:BannerRandom?uselang=en&sitename=Wikipedia&project=wikipedia&anonymous=true&bucket=0&country=US&device=desktop&slot=18 -> 200 (98ms)
+2013-06-20 07:48:53,301 - sauce_connect:0 - INFO - GET http://bits.wikimedia.org/en.wikipedia.org/load.php?debug=false&lang=en&modules=ext.visualEditor.splitTest&skin=vector&version=20130619T014016Z&* -> 200 (6ms)
+2013-06-20 07:48:53,318 - sauce_connect:0 - INFO - GET http://bits.wikimedia.org/en.wikipedia.org/load.php?debug=false&lang=en&modules=jquery.ui.button%2Ccore%2Cdialog%2Cdraggable%2Cmouse%2Cposition%2Cresizable%2Cwidget&skin=vector&version=20130606T161047Z&* -> 200 (23ms)
+2013-06-20 07:48:53,490 - sauce_connect:0 - INFO - GET http://en.wikipedia.org/w/opensearch_desc.php -> 200 (7ms)
+2013-06-20 07:48:53,604 - sauce_connect:0 - INFO - GET http://bits.wikimedia.org/favicon/wikipedia.ico -> 200 (6ms)
+2013-06-20 07:48:53,750 - sauce_connect:0 - INFO - GET http://meta.wikimedia.org/wiki/Special:RecordImpression?banner=Wiknic2013&campaign=Wiknic2013&result=show&country=US&uselang=en&project=wikipedia&db=enwiki&bucket=0&anonymous=true&device=desktop -> 200 (15ms)
+2013-06-20 07:48:53,757 - sauce_connect:0 - INFO - GET http://upload.wikimedia.org/wikipedia/commons/thumb/3/39/Leaf_icon_15.svg/25px-Leaf_icon_15.svg.png -> 200 (7ms)
+2013-06-20 07:48:53,759 - sauce_connect:0 - INFO - GET http://bits.wikimedia.org/skins/common/images/closewindow19x19.png -> 200 (6ms)
+2013-06-20 07:48:53,760 - sauce_connect:0 - INFO - GET http://upload.wikimedia.org/wikipedia/commons/0/0d/Gray-gradient1.png -> 200 (8ms)
+2013-06-20 07:54:03,390 - sauce_connect:0 - INFO - GET http://en.wikipedia.org/wiki/Main_Page -> 200 (19ms)
+2013-06-20 07:54:03,667 - sauce_connect:0 - INFO - GET http://bits.wikimedia.org/en.wikipedia.org/load.php?debug=false&lang=en&modules=site&only=styles&skin=vector&* -> 200 (16ms)
+2013-06-20 07:54:03,674 - sauce_connect:0 - INFO - GET http://bits.wikimedia.org/en.wikipedia.org/load.php?debug=false&lang=en&modules=ext.gadget.DRN-wizard%2CReferenceTooltips%2Ccharinsert%2Cteahouse%7Cext.rtlcite%2Cwikihiero%7Cmediawiki.legacy.commonPrint%2Cshared%7Cmw.PopUpMediaTransform%7Cskins.vector&only=styles&skin=vector&* -> 200 (26ms)
+2013-06-20 07:54:03,680 - sauce_connect:0 - INFO - GET http://en.wikipedia.org/w/index.php?title=MediaWiki:Gadget-ReferenceTooltips.js&action=raw&ctype=text/javascript&508635914 -> 200 (9ms)
+2013-06-20 07:54:03,681 - sauce_connect:0 - INFO - GET http://bits.wikimedia.org/geoiplookup -> 200 (15ms)
+2013-06-20 07:54:03,683 - sauce_connect:0 - INFO - GET http://bits.wikimedia.org/en.wikipedia.org/load.php?debug=false&lang=en&modules=startup&only=scripts&skin=vector&* -> 200 (15ms)
+2013-06-20 07:54:03,730 - sauce_connect:0 - INFO - GET http://bits.wikimedia.org/en.wikipedia.org/load.php?debug=false&lang=en&modules=site&only=scripts&skin=vector&* -> 200 (7ms)
+2013-06-20 07:54:04,039 - sauce_connect:0 - INFO - GET http://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/IanHaug2007.jpg/100px-IanHaug2007.jpg -> 200 (41ms)
+2013-06-20 07:54:04,111 - sauce_connect:0 - INFO - GET http://upload.wikimedia.org/wikipedia/commons/thumb/3/30/Bugsy_Siegel.jpg/83px-Bugsy_Siegel.jpg -> 200 (32ms)
+2013-06-20 07:54:04,115 - sauce_connect:0 - INFO - GET http://upload.wikimedia.org/wikipedia/en/9/9d/Commons-logo-31px.png -> 200 (32ms)
+2013-06-20 07:54:04,128 - sauce_connect:0 - INFO - GET http://upload.wikimedia.org/wikipedia/en/thumb/e/e0/Statni_pohreb_Vaclava_Havla_23.12.2011_318_cropped.jpg/75px-Statni_pohreb_Vaclava_Havla_23.12.2011_318_cropped.jpg -> 200 (48ms)
+2013-06-20 07:54:04,134 - sauce_connect:0 - INFO - GET http://upload.wikimedia.org/wikipedia/commons/thumb/0/01/Coburg-St.Augustin.jpg/66px-Coburg-St.Augustin.jpg -> 200 (50ms)
+2013-06-20 07:54:04,144 - sauce_connect:0 - INFO - GET http://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Aeroflot_Airbus_A330_Kustov_edit.jpg/400px-Aeroflot_Airbus_A330_Kustov_edit.jpg -> 200 (61ms)
+2013-06-20 07:54:04,236 - sauce_connect:0 - INFO - GET http://bits.wikimedia.org/en.wikipedia.org/load.php?debug=false&lang=en&modules=ext.centralNotice.bannerController%7Cext.wikimediaShopLink.core%7Cjquery.client%2Ccookie%2CmwExtension%7Cmediawiki.cldr%2CjqueryMsg%2Clanguage%2Cnotify%2Cutil%7Cmediawiki.language.data%2Cinit%7Cmediawiki.legacy.ajax%2Cwikibits%7Cmediawiki.libs.pluralruleparser%7Cmediawiki.page.startup%7Cwikibase.client.init&skin=vector&version=20130620T115316Z&* -> 200 (51ms)
+2013-06-20 07:54:04,246 - sauce_connect:0 - INFO - GET http://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/Mediawiki-logo.png/35px-Mediawiki-logo.png -> 200 (22ms)
+2013-06-20 07:54:04,247 - sauce_connect:0 - INFO - GET http://upload.wikimedia.org/wikipedia/en/b/bc/Meta-logo-35px.png -> 200 (21ms)
+2013-06-20 07:54:04,279 - sauce_connect:0 - INFO - GET http://upload.wikimedia.org/wikipedia/en/7/7f/Wikibooks-logo-35px.png -> 200 (19ms)
+2013-06-20 07:54:04,280 - sauce_connect:0 - INFO - GET http://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/Wikidata-logo.svg/47px-Wikidata-logo.svg.png -> 200 (18ms)
+2013-06-20 07:54:04,375 - sauce_connect:0 - INFO - GET http://upload.wikimedia.org/wikipedia/en/4/46/Wikiquote-logo-51px.png -> 200 (24ms)
+2013-06-20 07:54:04,375 - sauce_connect:0 - INFO - GET http://upload.wikimedia.org/wikipedia/en/6/60/Wikinews-logo-51px.png -> 200 (25ms)
+2013-06-20 07:54:04,427 - sauce_connect:0 - INFO - GET http://upload.wikimedia.org/wikipedia/en/b/b6/Wikisource-logo-35px.png -> 200 (22ms)
+2013-06-20 07:54:04,428 - sauce_connect:0 - INFO - GET http://bits.wikimedia.org/images/wikimedia-button.png -> 200 (23ms)
+2013-06-20 07:54:04,441 - sauce_connect:0 - INFO - GET http://upload.wikimedia.org/wikipedia/en/b/bf/Wikispecies-logo-35px.png -> 200 (36ms)
+2013-06-20 07:54:04,461 - sauce_connect:0 - INFO - GET http://upload.wikimedia.org/wikipedia/en/e/e3/Wikiversity-logo-41px.png -> 200 (17ms)
+2013-06-20 07:54:04,530 - sauce_connect:0 - INFO - GET http://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Wikivoyage-logo.svg/35px-Wikivoyage-logo.svg.png -> 200 (18ms)
+2013-06-20 07:54:04,562 - sauce_connect:0 - INFO - GET http://upload.wikimedia.org/wikipedia/en/b/bc/Wiki.png -> 200 (49ms)
+2013-06-20 07:54:04,605 - sauce_connect:0 - INFO - GET http://upload.wikimedia.org/wikipedia/en/f/f2/Wiktionary-logo-51px.png -> 200 (17ms)
+2013-06-20 07:54:04,796 - sauce_connect:0 - INFO - GET http://meta.wikimedia.org/wiki/Special:BannerRandom?uselang=en&sitename=Wikipedia&project=wikipedia&anonymous=true&bucket=1&country=US&device=desktop&slot=5 -> 200 (32ms)
+2013-06-20 07:54:04,967 - sauce_connect:0 - INFO - GET http://en.wikipedia.org/w/opensearch_desc.php -> 200 (17ms)
+2013-06-20 07:54:05,148 - sauce_connect:0 - INFO - GET http://bits.wikimedia.org/favicon/wikipedia.ico -> 200 (30ms)
+2013-06-20 07:54:05,331 - sauce_connect:0 - INFO - GET http://meta.wikimedia.org/wiki/Special:RecordImpression?banner=Wiknic2013&campaign=Wiknic2013&result=show&country=US&uselang=en&project=wikipedia&db=enwiki&bucket=1&anonymous=true&device=desktop -> 200 (24ms)
+2013-06-20 07:54:05,332 - sauce_connect:0 - INFO - GET http://upload.wikimedia.org/wikipedia/commons/thumb/3/39/Leaf_icon_15.svg/25px-Leaf_icon_15.svg.png -> 200 (21ms)
+2013-06-20 07:54:05,345 - sauce_connect:0 - INFO - GET http://upload.wikimedia.org/wikipedia/commons/0/0d/Gray-gradient1.png -> 200 (34ms)
+2013-06-20 07:54:05,404 - sauce_connect:0 - INFO - GET http://bits.wikimedia.org/skins/common/images/closewindow19x19.png -> 200 (18ms)
+2013-06-20 07:59:08,994 - sauce_connect:0 - INFO - received SIGINT
